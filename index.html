@@ -146,28 +146,20 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="mobile-header-wrapper">
+            <div class="mobile-header-wrapper">
                 <div class="mobile-header-block">
                     <div class="vp-log">
-                        <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                        <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
                     </div>
                     <div class="mobile-menu-controller">
-                        @auth
                             <div class="vp-bell">
-                                <img src="{{ asset('main/images/icon/bell.svg')}}" alt="Bell">
-                                <span class="notifications-count"></span>
+                                <img src="./imgs/icon/bell.svg" alt="Bell">
                             </div>
                             <div class="vp-user-initials">
                                 <div class="vp-button">
-                                    @if(!empty(Auth::user()->image))
-                                        <img src="{{asset('storage/user/'.Auth::user()->image)}}" style="border-radius: 50%" class="p-0" width="54" height="54">
-                                    @else
-                                        <input id="full-name-header" value="{{Auth::user()->name}}" hidden>
-                                        <span></span>
-                                    @endif
+                                        <span>AK</span>
                                 </div>
                             </div>
-                        @endauth
                         <div class="mobile-menu-icon">
                             <div class="burger">
                                 <span class="burger__line burger__line_first"></span>
@@ -178,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mobile-menu-wrapper">
+                <!-- <div class="mobile-menu-wrapper">
                     <div class="mobile-notification-block vp-notify">
                         <div class="vp-notify-header d-flex justify-content-between align-items-center">
                             <h1 class="dropdown-header p-0">Notifications</h1>
@@ -186,7 +178,7 @@
                         </div>
                         <div class="overflow-auto vp-notify-scroll">
                             <template id="notifications">
-                                <a class="dropdown-item vp-notify-item" href="javascript:void(0);">
+                                <a class="dropdown-item vp-notify-item" href="#">
                                     <div class="card card-body vp-notify-unread">
                                         <div class="media">
                                             <div class="media-body d-flex align-items-center">
@@ -207,7 +199,7 @@
                         </div>
                         <a href="/notifications" class="dropdown-item vp-notify-all">See all notifications</a>
                         <div class="menu-bottom-logo">
-                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                            <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
                         </div>
                     </div>
                     <div class="mobile-profile-block">
@@ -228,13 +220,12 @@
                             <p class="header-timezone"></p>
                         </a>
                         <div class="menu-bottom-logo">
-                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                            <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
                         </div>
                     </div>
                     <div class="mobile-menu-block">
                         <ul class="group-item" id="vp-nav-bar">
-                            @auth
-                                <li @if(Route::current()->getName() == 'search'|| Route::current()->getName() == 'search.result'||Route::current()->getName() == 'contact.view') class="current-page-item"@endif>
+                                <li class="current-page-item">
                                     <a href="{{ route('search') }}">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16.095 16.095">
                                             <path id="search-2" d="M15.388,14.385,10.554,9.552a5.914,5.914,0,1,0-1,1l4.833,4.833a.709.709,0,1,0,1-1ZM1.418,5.908a4.49,4.49,0,1,1,4.49,4.49A4.495,4.495,0,0,1,1.418,5.908Z" transform="translate(0.25 0.25)"/>
@@ -242,9 +233,8 @@
                                         <span>Search</span>
                                     </a>
                                 </li>
-                                <li @if(Route::current()->getName() == 'campaign.list' || Route::current()->getName() == 'single.campaign' ||
-                                        Route::current()->getName() == 'message' || Route::current()->getName() == 'templates') class="current-page-item"@endif>
-                                    <a href="{{ route('campaign.list') }}">
+                                <li class="current-page-item">
+                                    <a href="#">
                                         <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="22" height="22"
                                              viewBox="0 0 18.215 18.215">
                                             <g id="Group_4023" data-name="Group 4023" transform="translate(0 0)">
@@ -271,14 +261,13 @@
                                         <span>Campaigns</span>
                                     </a>
                                 </li>
-                            @endauth
                         </ul>
                         <div class="menu-bottom-logo">
-                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                            <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
                         </div>
                     </div>
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </div>
     </header> <!-- Header-->
 </body>
