@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.148" height="26.365" viewBox="0 0 25.148 26.365">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="bell" transform="rotate(-14.98 17.864 11.654)">
+        <g id="Group_3888" data-name="Group 3888" transform="translate(2.241 .951)">
+            <path id="Path_183" d="M20.129 13.484v-4.66a7.531 7.531 0 0 0-4.709-6.963h.027a3.108 3.108 0 0 0-5.694 0h.025a7.531 7.531 0 0 0-4.709 6.963v4.661a2.862 2.862 0 0 0-2.828 2.873v.619a2.87 2.87 0 0 0 2.868 2.875h14.98a2.87 2.87 0 0 0 2.868-2.875v-.619a2.862 2.862 0 0 0-2.828-2.874z" class="cls-1" data-name="Path 183" transform="translate(-2.241)"/>
+            <path id="Path_184" d="M14.8 44.428a3.252 3.252 0 0 0 2.97-1.942h-5.942a3.253 3.253 0 0 0 2.972 1.942z" class="cls-1" data-name="Path 184" transform="translate(-6.865 -21.354)"/>
+        </g>
+    </g>
+</svg>

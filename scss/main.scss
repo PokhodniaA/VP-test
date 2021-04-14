@@ -1,0 +1,264 @@
+// @import "./helpers/extends";
+// @import "./helpers/functions";
+// @import "./helpers/mixins";
+// @import "./helpers/typeography";
+// @import "./helpers/variables";
+
+// Helpers
+
+// extends
+%position-relative {
+    position: relative;
+}
+
+// Var
+$base-white: #fff;
+$clr-1180f3: #1180f3;
+
+// Mixxins
+
+@mixin loadFont($font-color: $base-white, $style: normal, $weight: normal, $size: $font-size-base, $family: 'SF-Pro-Rounded-Regular'){
+    font: $style $weight $size $family;
+    color: $font-color;
+}
+
+@mixin margin-or-padding($name, $values...) {
+    @each $var in $values {
+        #{$name}: #{$var};
+    }
+}
+
+@mixin margin-padding-side($direction, $name, $size-dir) {
+    @if($direction == "top") {
+        #{$name}-top: $size-dir + px;
+    }
+    @if($direction == "left") {
+        #{$name}-left: $size-dir + px;
+    }
+    @if($direction == "right") {
+        #{$name}-right: $size-dir + px;
+    }
+    @if($direction == "bottom") {
+        #{$name}-bottom: $size-dir + px;
+    }
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin dimensions($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin size-square($size) {
+    @include dimensions($size, $size);
+}
+
+
+// Base
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    color: #fff;
+}
+
+/***** START GLOBAL TYPOGRAPHY CSS *****/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    &:hover{
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+// Header 
+
+.vp-header{
+    background: #1f243b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1040;
+
+    .main-header{
+        max-width: 835px;
+        width: 90%;
+        margin: auto;
+        // max-width: 1536px;
+        @include margin-or-padding(padding, 5px 0);
+
+        
+        .header-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .vp-log{
+                display: flex;
+                align-items: center;
+                max-width: 155px;
+                img{
+                    width: 100%;
+                }
+
+                span{
+                    @include loadFont($font-color: #fff, $style: normal, $weight: 100, $size: 0.6875rem /*11px*/, $family: 'SF-Pro-Rounded-Bold');
+                    text-transform: uppercase;
+                    letter-spacing: 0.0625rem/*1px*/;
+                    background-color: rgb(13, 119, 242);
+                    @include margin-or-padding(padding, 3px 6px 2px);
+                    @include margin-padding-side(left, margin, 7);
+                    @include border-radius(4px);
+                    line-height: 0.813rem/*11px*/;
+                }
+            }
+
+            .vp-menu{
+                max-width: 350px;
+                width: 100%;
+                @include margin-or-padding(margin, 0 20px);
+
+                #vp-nav-bar{
+                    position: relative;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -webkit-align-items: center;
+                    -moz-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: justify;
+                    -webkit-justify-content: space-between;
+                    -moz-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    min-height: 59px; // Исправить
+
+                    li{
+                        &.current-page-item{
+                            a{
+                                @include loadFont($font-color: #1180f3, $style: normal, $weight: 100, $size: 0.875rem /*14px*/, $family: 'SF-Pro-Rounded-Medium');
+
+                                svg{
+                                    fill: $clr-1180f3;
+                                }
+                            }
+                        }
+
+                        a{
+                            @include loadFont($font-color: $base-white, $style: normal, $weight: 100, $size: 0.875rem /*14px*/, $family: 'SF-Pro-Rounded-Regular');
+                            @include margin-or-padding(padding, 10px 13px);
+                            @extend %position-relative;
+                            z-index: 2;
+
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -moz-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -webkit-align-items: center;
+                            -moz-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: center;
+                            -webkit-justify-content: center;
+                            -moz-box-pack: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                            -webkit-flex-wrap: wrap;
+                            -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                            flex-direction: column;
+
+                            text-align: center;
+
+                            -webkit-transition: color 0.3s ease-in-out;
+                            -o-transition: color 0.3s ease-in-out;
+                            -moz-transition: color 0.3s ease-in-out;
+                            transition: color 0.3s ease-in-out;
+
+                            svg{
+                                width: 100%;
+                                height: 16px;
+                                fill: #fff;
+                                margin-bottom: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .vp-controller{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .vp-button{
+                    @include size-square(45px);
+                }
+
+                .vp-bell{
+                    position: relative;
+                    margin-right: 15px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    background-color: #282d45;
+
+                    
+                }
+
+                .vp-user-initials{
+                    position: relative;
+                    
+                    .vp-button{
+                       
+                        background-image: linear-gradient(90deg, #0749e2, #1180f3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    }
+
+                    span{
+                        font-size: 1.125rem/*18px*/;
+                    }
+                }
+            }
+        }
+    }
+}

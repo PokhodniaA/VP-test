@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Test Virtual Publicist </title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="vp-header">
+        <div class="main-header">
+            <div class="header-wrapper">
+                <div class="vp-log">
+                    <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
+                    <span>Beta</span>
+                </div>
+                <div class="vp-menu">
+                    <nav class="nav-wrap">
+                        <ul class="group-item" id="vp-nav-bar">
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="white"
+                                        viewBox="0 0 16.095 16.095">
+                                        <path id="search-2"
+                                            d="M15.388,14.385,10.554,9.552a5.914,5.914,0,1,0-1,1l4.833,4.833a.709.709,0,1,0,1-1ZM1.418,5.908a4.49,4.49,0,1,1,4.49,4.49A4.495,4.495,0,0,1,1.418,5.908Z"
+                                            transform="translate(0.25 0.25)" />
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="current-page-item">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="22" height="22"
+                                        viewBox="0 0 18.215 18.215"
+                                        fill="#1180f3">
+                                        <g id="Group_4023" data-name="Group 4023" transform="translate(0 0)">
+                                            <g id="Group_4022" data-name="Group 4022" transform="translate(0 0)">
+                                                <path id="Path_387" data-name="Path 387"
+                                                    d="M6.289,0H2.106A2.109,2.109,0,0,0,0,2.106V6.289A2.109,2.109,0,0,0,2.106,8.4H6.289A2.109,2.109,0,0,0,8.4,6.289V2.106A2.109,2.109,0,0,0,6.289,0Zm.683,6.289a.684.684,0,0,1-.683.683H2.106a.684.684,0,0,1-.683-.683V2.106a.684.684,0,0,1,.683-.683H6.289a.684.684,0,0,1,.683.683Z"
+                                                    transform="translate(0 0)" />
+                                            </g>
+                                        </g>
+                                        <g id="Group_4025" data-name="Group 4025" transform="translate(9.819 0)">
+                                            <g id="Group_4024" data-name="Group 4024">
+                                                <path id="Path_388" data-name="Path 388"
+                                                    d="M282.261,0h-4.127A2.137,2.137,0,0,0,276,2.135V6.261A2.137,2.137,0,0,0,278.135,8.4h4.127A2.137,2.137,0,0,0,284.4,6.261V2.135A2.137,2.137,0,0,0,282.261,0Zm.712,6.261a.712.712,0,0,1-.712.712h-4.127a.712.712,0,0,1-.712-.712V2.135a.712.712,0,0,1,.712-.712h4.127a.712.712,0,0,1,.712.712Z"
+                                                    transform="translate(-276)" />
+                                            </g>
+                                        </g>
+                                        <g id="Group_4027" data-name="Group 4027" transform="translate(0 9.819)">
+                                            <g id="Group_4026" data-name="Group 4026">
+                                                <path id="Path_389" data-name="Path 389"
+                                                    d="M6.289,276H2.106A2.109,2.109,0,0,0,0,278.106v4.183A2.109,2.109,0,0,0,2.106,284.4H6.289A2.109,2.109,0,0,0,8.4,282.289v-4.183A2.109,2.109,0,0,0,6.289,276Zm.683,6.289a.684.684,0,0,1-.683.683H2.106a.684.684,0,0,1-.683-.683v-4.183a.684.684,0,0,1,.683-.683H6.289a.684.684,0,0,1,.683.683Z"
+                                                    transform="translate(0 -276)" />
+                                            </g>
+                                        </g>
+                                        <g id="Group_4029" data-name="Group 4029" transform="translate(9.819 9.819)">
+                                            <g id="Group_4028" data-name="Group 4028">
+                                                <path id="Path_390" data-name="Path 390"
+                                                    d="M282.261,276h-4.127A2.137,2.137,0,0,0,276,278.135v4.127a2.137,2.137,0,0,0,2.135,2.135h4.127a2.137,2.137,0,0,0,2.135-2.135v-4.127A2.137,2.137,0,0,0,282.261,276Zm.712,6.261a.712.712,0,0,1-.712.712h-4.127a.712.712,0,0,1-.712-.712v-4.127a.712.712,0,0,1,.712-.712h4.127a.712.712,0,0,1,.712.712Z"
+                                                    transform="translate(-276 -276)" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <span>Campaigns</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="vp-controller">
+                    <div class="vp-controller">
+                        <div class="vp-bell vp-button">
+                            <img src="./imgs/icon/bell.svg" alt="Bell" id="notificationBell" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            <span class="notifications-count"></span>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu dropdown-menu-right vp-notify" aria-labelledby="notificationBell">
+                                <div class="vp-notify-header d-flex justify-content-between align-items-center">
+                                    <h1 class="dropdown-header p-0">Notifications</h1>
+                                    <button type="button" class="btn btn-link vp-notification-mark-read">Mark all as
+                                        read
+                                    </button>
+                                </div>
+                                <div class="overflow-auto vp-notify-scroll">
+                                    <template id="notifications">
+                                        <a class="dropdown-item vp-notify-item" href="javascript:void(0);">
+                                            <div class="card card-body vp-notify-unread">
+                                                <div class="media">
+                                                    <div class="media-body d-flex align-items-center">
+                                                        <div class="mr-3">
+                                                            <span class=""></span>
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <h6 class="mb-2"></h6>
+                                                            <div><span class="vp-notify-type mr-1"></span>
+                                                                <span>∙</span> <span class="vp-notify-date ml-1"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </template>
+
+                                </div>
+                                <a href="/notifications" class="dropdown-item vp-notify-all">See all notifications</a>
+                            </div><!-- Dropdown -->
+                        </div>
+                        <div class="vp-user-initials dropdown">
+                            <div class="vp-button" id="dropdownMenuLink" >
+                                <span>AK</span>
+                            </div>
+                             <!-- Dropdown -->
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="/profile">Profile & Settings</a>
+                                <a class="dropdown-item" href="/faq">F.A.Q</a>
+                                <a class="dropdown-item logout" href="#">Logout
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512"
+                                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                d="M255.15,468.625H63.787c-11.737,0-21.262-9.526-21.262-21.262V64.638c0-11.737,9.526-21.262,21.262-21.262H255.15    c11.758,0,21.262-9.504,21.262-21.262S266.908,0.85,255.15,0.85H63.787C28.619,0.85,0,29.47,0,64.638v382.724    c0,35.168,28.619,63.787,63.787,63.787H255.15c11.758,0,21.262-9.504,21.262-21.262    C276.412,478.129,266.908,468.625,255.15,468.625z" />
+                                        </g>
+                                        <g>
+                                            <path
+                                                d="M505.664,240.861L376.388,113.286c-8.335-8.25-21.815-8.143-30.065,0.213s-8.165,21.815,0.213,30.065l92.385,91.173    H191.362c-11.758,0-21.262,9.504-21.262,21.262c0,11.758,9.504,21.263,21.262,21.263h247.559l-92.385,91.173    c-8.377,8.25-8.441,21.709-0.213,30.065c4.167,4.21,9.653,6.336,15.139,6.336c5.401,0,10.801-2.041,14.926-6.124l129.276-127.575    c4.04-3.997,6.336-9.441,6.336-15.139C512,250.302,509.725,244.88,505.664,240.861z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a class="dropdown-item">
+                                    <p>Your Current Time Zone</p>
+                                    <p class="header-timezone"></p>
+                                </a>
+                            </div> <!-- Dropdown -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="mobile-header-wrapper">
+                <div class="mobile-header-block">
+                    <div class="vp-log">
+                        <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                    </div>
+                    <div class="mobile-menu-controller">
+                        @auth
+                            <div class="vp-bell">
+                                <img src="{{ asset('main/images/icon/bell.svg')}}" alt="Bell">
+                                <span class="notifications-count"></span>
+                            </div>
+                            <div class="vp-user-initials">
+                                <div class="vp-button">
+                                    @if(!empty(Auth::user()->image))
+                                        <img src="{{asset('storage/user/'.Auth::user()->image)}}" style="border-radius: 50%" class="p-0" width="54" height="54">
+                                    @else
+                                        <input id="full-name-header" value="{{Auth::user()->name}}" hidden>
+                                        <span></span>
+                                    @endif
+                                </div>
+                            </div>
+                        @endauth
+                        <div class="mobile-menu-icon">
+                            <div class="burger">
+                                <span class="burger__line burger__line_first"></span>
+                                <span class="burger__line burger__line_second"></span>
+                                <span class="burger__line burger__line_third"></span>
+                                <span class="burger__line burger__line_fourth"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-wrapper">
+                    <div class="mobile-notification-block vp-notify">
+                        <div class="vp-notify-header d-flex justify-content-between align-items-center">
+                            <h1 class="dropdown-header p-0">Notifications</h1>
+                            <button type="button" class="btn btn-link vp-notification-mark-read">Mark all as read</button>
+                        </div>
+                        <div class="overflow-auto vp-notify-scroll">
+                            <template id="notifications">
+                                <a class="dropdown-item vp-notify-item" href="javascript:void(0);">
+                                    <div class="card card-body vp-notify-unread">
+                                        <div class="media">
+                                            <div class="media-body d-flex align-items-center">
+                                                <div class="mr-3">
+                                                    <span class=""></span>
+                                                </div>
+                                                <div class="notification-text">
+                                                    <h6 class="mb-2"></h6>
+                                                    <div><span class="vp-notify-type mr-1"></span>
+                                                        <span>∙</span> <span class="vp-notify-date ml-1"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </template>
+                        </div>
+                        <a href="/notifications" class="dropdown-item vp-notify-all">See all notifications</a>
+                        <div class="menu-bottom-logo">
+                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="mobile-profile-block">
+                        <a class="dropdown-item" href="/profile">Profile & Settings</a>
+                        <a class="dropdown-item" href="/faq">F.A.Q</a>
+                        <a class="dropdown-item logout" href="#">Logout
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <path d="M255.15,468.625H63.787c-11.737,0-21.262-9.526-21.262-21.262V64.638c0-11.737,9.526-21.262,21.262-21.262H255.15    c11.758,0,21.262-9.504,21.262-21.262S266.908,0.85,255.15,0.85H63.787C28.619,0.85,0,29.47,0,64.638v382.724    c0,35.168,28.619,63.787,63.787,63.787H255.15c11.758,0,21.262-9.504,21.262-21.262    C276.412,478.129,266.908,468.625,255.15,468.625z"/>
+                                        </g>
+                                <g>
+                                    <path d="M505.664,240.861L376.388,113.286c-8.335-8.25-21.815-8.143-30.065,0.213s-8.165,21.815,0.213,30.065l92.385,91.173    H191.362c-11.758,0-21.262,9.504-21.262,21.262c0,11.758,9.504,21.263,21.262,21.263h247.559l-92.385,91.173    c-8.377,8.25-8.441,21.709-0.213,30.065c4.167,4.21,9.653,6.336,15.139,6.336c5.401,0,10.801-2.041,14.926-6.124l129.276-127.575    c4.04-3.997,6.336-9.441,6.336-15.139C512,250.302,509.725,244.88,505.664,240.861z"/>
+                                </g>
+                                    </svg>
+                        </a>
+                        <a class="dropdown-item">
+                            <p>Your Current Time Zone</p>
+                            <p class="header-timezone"></p>
+                        </a>
+                        <div class="menu-bottom-logo">
+                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="mobile-menu-block">
+                        <ul class="group-item" id="vp-nav-bar">
+                            @auth
+                                <li @if(Route::current()->getName() == 'search'|| Route::current()->getName() == 'search.result'||Route::current()->getName() == 'contact.view') class="current-page-item"@endif>
+                                    <a href="{{ route('search') }}">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16.095 16.095">
+                                            <path id="search-2" d="M15.388,14.385,10.554,9.552a5.914,5.914,0,1,0-1,1l4.833,4.833a.709.709,0,1,0,1-1ZM1.418,5.908a4.49,4.49,0,1,1,4.49,4.49A4.495,4.495,0,0,1,1.418,5.908Z" transform="translate(0.25 0.25)"/>
+                                        </svg>
+                                        <span>Search</span>
+                                    </a>
+                                </li>
+                                <li @if(Route::current()->getName() == 'campaign.list' || Route::current()->getName() == 'single.campaign' ||
+                                        Route::current()->getName() == 'message' || Route::current()->getName() == 'templates') class="current-page-item"@endif>
+                                    <a href="{{ route('campaign.list') }}">
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="22" height="22"
+                                             viewBox="0 0 18.215 18.215">
+                                            <g id="Group_4023" data-name="Group 4023" transform="translate(0 0)">
+                                                <g id="Group_4022" data-name="Group 4022" transform="translate(0 0)">
+                                                    <path id="Path_387" data-name="Path 387" d="M6.289,0H2.106A2.109,2.109,0,0,0,0,2.106V6.289A2.109,2.109,0,0,0,2.106,8.4H6.289A2.109,2.109,0,0,0,8.4,6.289V2.106A2.109,2.109,0,0,0,6.289,0Zm.683,6.289a.684.684,0,0,1-.683.683H2.106a.684.684,0,0,1-.683-.683V2.106a.684.684,0,0,1,.683-.683H6.289a.684.684,0,0,1,.683.683Z" transform="translate(0 0)"/>
+                                                </g>
+                                            </g>
+                                            <g id="Group_4025" data-name="Group 4025" transform="translate(9.819 0)">
+                                                <g id="Group_4024" data-name="Group 4024">
+                                                    <path id="Path_388" data-name="Path 388" d="M282.261,0h-4.127A2.137,2.137,0,0,0,276,2.135V6.261A2.137,2.137,0,0,0,278.135,8.4h4.127A2.137,2.137,0,0,0,284.4,6.261V2.135A2.137,2.137,0,0,0,282.261,0Zm.712,6.261a.712.712,0,0,1-.712.712h-4.127a.712.712,0,0,1-.712-.712V2.135a.712.712,0,0,1,.712-.712h4.127a.712.712,0,0,1,.712.712Z" transform="translate(-276)"/>
+                                                </g>
+                                            </g>
+                                            <g id="Group_4027" data-name="Group 4027" transform="translate(0 9.819)">
+                                                <g id="Group_4026" data-name="Group 4026">
+                                                    <path id="Path_389" data-name="Path 389" d="M6.289,276H2.106A2.109,2.109,0,0,0,0,278.106v4.183A2.109,2.109,0,0,0,2.106,284.4H6.289A2.109,2.109,0,0,0,8.4,282.289v-4.183A2.109,2.109,0,0,0,6.289,276Zm.683,6.289a.684.684,0,0,1-.683.683H2.106a.684.684,0,0,1-.683-.683v-4.183a.684.684,0,0,1,.683-.683H6.289a.684.684,0,0,1,.683.683Z" transform="translate(0 -276)"/>
+                                                </g>
+                                            </g>
+                                            <g id="Group_4029" data-name="Group 4029" transform="translate(9.819 9.819)">
+                                                <g id="Group_4028" data-name="Group 4028">
+                                                    <path id="Path_390" data-name="Path 390" d="M282.261,276h-4.127A2.137,2.137,0,0,0,276,278.135v4.127a2.137,2.137,0,0,0,2.135,2.135h4.127a2.137,2.137,0,0,0,2.135-2.135v-4.127A2.137,2.137,0,0,0,282.261,276Zm.712,6.261a.712.712,0,0,1-.712.712h-4.127a.712.712,0,0,1-.712-.712v-4.127a.712.712,0,0,1,.712-.712h4.127a.712.712,0,0,1,.712.712Z" transform="translate(-276 -276)"/>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <span>Campaigns</span>
+                                    </a>
+                                </li>
+                            @endauth
+                        </ul>
+                        <div class="menu-bottom-logo">
+                            <img src="{{ asset('main/images/header/logo-vp-new.svg')}}" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </header> <!-- Header-->
+</body>
+
+</html>

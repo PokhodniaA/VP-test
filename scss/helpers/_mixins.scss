@@ -1,0 +1,239 @@
+/*  Font-face: Helvetica, ubuntu, SFProText family  */
+@mixin font($fontName,$fontFile){
+    @font-face {
+        font-family: "#{$fontName}";
+        src: url('../fonts/#{$fontFile}/#{$fontName}.woff2') format('woff2'),
+        url('../fonts/#{$fontFile}/#{$fontName}.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+@include font(Maison-Neue-Mono,Maison-Neue-Mono);
+@include font(Ubuntu-Regular,Ubuntu-Regular);
+@include font(Ubuntu-Medium,Ubuntu-Medium);
+@include font(Ubuntu-MediumItalic, Ubuntu-MediumItalic);
+@include font(Ubuntu-LightItalic, Ubuntu-LightItalic);
+@include font(Ubuntu-Italic,Ubuntu-Italic);
+@include font(Ubuntu-Bold,Ubuntu-Bold);
+@include font(Ubuntu-Light,Ubuntu-Light);
+
+@include font(SF-Semibold,SF-Semibold);
+
+@include font(SF-Pro-Rounded-Black,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Bold,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Heavy,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Light,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Medium,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Regular,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Semibold,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Thin,SF-Pro-Rounded);
+@include font(SF-Pro-Rounded-Ultralight,SF-Pro-Rounded);
+
+@include font(Mabry-Pro,Mabry-Pro);
+@include font(Mabry-Pro-Black,Mabry-Pro);
+@include font(Mabry-Pro-Black-Italic,Mabry-Pro);
+@include font(Mabry-Pro-Bold,Mabry-Pro);
+@include font(Mabry-Pro-Bold-Italic,Mabry-Pro);
+@include font(Mabry-Pro-Italic,Mabry-Pro);
+@include font(Mabry-Pro-Light,Mabry-Pro);
+@include font(Mabry-Pro-Light-Italic,Mabry-Pro);
+@include font(Mabry-Pro-Medium,Mabry-Pro);
+@include font(Mabry-Pro-Medium-Italic,Mabry-Pro);
+
+@include font(fontawesome,FontAwesome);
+
+//  Font
+@mixin loadFont($font-color: $base-white, $style: normal, $weight: normal, $size: $font-size-base, $family: 'SF-Pro-Rounded-Regular'){
+    font: $style $weight $size $family;
+    color: $font-color;
+}
+
+//  Align Center
+@mixin center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+//  Color, Background, Hover
+@mixin color($base-color){
+    color: $base-color;
+}
+@mixin txt-hover($color){
+    &:hover {
+        color: $color;
+    }
+}
+@mixin bg-hover($color){
+    &:hover {
+        background-color: $color;
+    }
+}
+@mixin bg-image($size, $home-path, $img){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $size;
+    @if $home-path == null {
+        background-image: url("#{$bg-img-path}#{$img}");
+    } @else {
+        background-image: url("#{$bg-img-path}#{$home-path}/#{$img}");
+    }
+}
+
+//  Border, Radius, Shadow
+@mixin border-all($size, $color){
+    border: $size solid $color;
+}
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin box-sizing($boxmodel) {
+    -webkit-box-sizing: $boxmodel;
+    -moz-box-sizing: $boxmodel;
+    box-sizing: $boxmodel;
+}
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+    box-shadow: $shadow;
+}
+
+//  Width, Height, Box Sizes...
+@mixin dimensions($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin box($width, $height, $background) {
+    @include dimensions($width, $height);
+    background-color: $background;
+}
+@mixin size-square($size) {
+    @include dimensions($size, $size);
+}
+@mixin box-square($size, $background) {
+    @include dimensions($size, $size);
+    background-color: $background;
+}
+@mixin full-size-m($min-max, $width, $height) {
+    @if($min-max == 'min') {
+        width: $width;
+        min-height: $height;
+    }
+    @if($min-max == 'max'){
+        max-width: $width;
+        height: $height;
+    }
+}
+
+// Block, Flex
+@mixin grid($flex) {
+    @if $flex {
+        @extend %flex-wrapper;
+    } @else {
+        display: block;
+    }
+}
+@mixin flex-all($justify: center, $items: center){
+    @extend %flex-wrapper;
+    justify-content: $justify;
+    align-items: $items;
+}
+
+@mixin calc-width($size){
+    width: calc(100% - #{$size});
+}
+
+// Placeholders
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}
+    &::-ms-input-placeholder     {@content}
+    &::placeholder               {@content}
+}
+
+// Margin, Padding
+@mixin margin-or-padding($name, $values...) {
+    @each $var in $values {
+        #{$name}: #{$var};
+    }
+}
+@mixin margin-padding-side($direction, $name, $size-dir) {
+    @if($direction == "top") {
+        #{$name}-top: $size-dir + px;
+    }
+    @if($direction == "left") {
+        #{$name}-left: $size-dir + px;
+    }
+    @if($direction == "right") {
+        #{$name}-right: $size-dir + px;
+    }
+    @if($direction == "bottom") {
+        #{$name}-bottom: $size-dir + px;
+    }
+}
+
+// Transform Translate, Rotate
+@mixin transform-origin($args...) {
+    -webkit-transform-origin: $args;
+    -ms-transform-origin: $args;
+    transform-origin: $args;
+}
+@mixin translateY($ratio) {
+    -webkit-transform: translateY($ratio);
+    -moz-transform: translateY($ratio);
+    -ms-transform: translateY($ratio);
+    -o-transform: translateY($ratio);
+    transform: translateY($ratio);
+}
+@mixin transform-translate($args...) {
+    -webkit-transform: translate($args...);
+    -ms-transform: translate($args...);
+    transform: translate($args...);
+}
+@mixin rotate($ratio) {
+    -webkit-transform: rotate($ratio);
+    -ms-transform: rotate($ratio);
+    transform: rotate($ratio);
+}
+
+// Transition, Animation
+@mixin animation($args...) {
+    -webkit-animation: $args;
+    -moz-animation: $args;
+    -ms-animation: $args;
+    -o-animation: $args;
+    animation: $args;
+}
+@mixin animation-delay($time) {
+    -webkit-animation-delay: $time;
+    -moz-animation-delay: $time;
+    -ms-animation-delay: $time;
+    -o-animation-delay: $time;
+    animation-delay: $time;
+}
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+// keyframes mixin
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}

@@ -1,0 +1,7 @@
+@function border-bottom-mm($size, $border-color){
+    @return ($size solid $border-color)
+}
+
+@function height100m($size){
+    @return (calc(100% - #{$size}))
+}
