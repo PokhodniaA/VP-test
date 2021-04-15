@@ -680,6 +680,88 @@ a:hover {
   }
 }
 
+.main-layout-container {
+  height: 100%;
+}
+
+.main-layout-container .campaign-contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 76px;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn {
+  max-width: 1170px;
+  width: 90%;
+  height: 63px;
+  margin: auto;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p {
+  color: #5b6179;
+  line-height: 2.938rem;
+  font: normal normal 0.938rem "SF-Pro-Rounded-Medium";
+  padding-left: 0.25rem;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p a {
+  color: #5b6179;
+}
+
+@media (max-width: 1600px) {
+  .main-layout-container .campaign-contact-list {
+    margin-top: 70px;
+  }
+  .main-layout-container .campaign-contact-list .first-block-btn {
+    max-width: 835px;
+    height: 58px;
+  }
+  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns,
+  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaign {
+    margin-top: 0px;
+  }
+}
+
 *,
 *::before,
 *::after {
