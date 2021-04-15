@@ -26,8 +26,7 @@
                         <ul class="group-item" id="vp-nav-bar">
                             <li>
                                 <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    fill="white"
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"
                                         viewBox="0 0 16.095 16.095">
                                         <path id="search-2"
                                             d="M15.388,14.385,10.554,9.552a5.914,5.914,0,1,0-1,1l4.833,4.833a.709.709,0,1,0,1-1ZM1.418,5.908a4.49,4.49,0,1,1,4.49,4.49A4.495,4.495,0,0,1,1.418,5.908Z"
@@ -39,8 +38,7 @@
                             <li class="current-page-item">
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="22" height="22"
-                                        viewBox="0 0 18.215 18.215"
-                                        fill="#1180f3">
+                                        viewBox="0 0 18.215 18.215" fill="#1180f3">
                                         <g id="Group_4023" data-name="Group 4023" transform="translate(0 0)">
                                             <g id="Group_4022" data-name="Group 4022" transform="translate(0 0)">
                                                 <path id="Path_387" data-name="Path 387"
@@ -116,10 +114,10 @@
                             </div><!-- Dropdown -->
                         </div>
                         <div class="vp-user-initials dropdown">
-                            <div class="vp-button" id="dropdownMenuLink" >
+                            <div class="vp-button" id="dropdownMenuLink">
                                 <span>AK</span>
                             </div>
-                             <!-- Dropdown -->
+                            <!-- Dropdown -->
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="/profile">Profile & Settings</a>
                                 <a class="dropdown-item" href="/faq">F.A.Q</a>
@@ -152,14 +150,14 @@
                         <img src="./imgs/header/logo-vp-new.svg" alt="Logo">
                     </div>
                     <div class="mobile-menu-controller">
-                            <div class="vp-bell">
-                                <img src="./imgs/icon/bell.svg" alt="Bell">
+                        <div class="vp-bell">
+                            <img src="./imgs/icon/bell.svg" alt="Bell">
+                        </div>
+                        <div class="vp-user-initials">
+                            <div class="vp-button">
+                                <span>AK</span>
                             </div>
-                            <div class="vp-user-initials">
-                                <div class="vp-button">
-                                        <span>AK</span>
-                                </div>
-                            </div>
+                        </div>
                         <div class="mobile-menu-icon">
                             <div class="burger">
                                 <span class="burger__line burger__line_first"></span>
@@ -272,24 +270,26 @@
     </header> <!-- Header-->
 
     <!-- Main -->
-    <main>
-        <!-- first-block-btn -->
-        <div class="first-block-btn">
-            <div class="btn-back-img">
-                <div id="back-to-campaigns">
-                    <img src="/main/images/icon/Back-Icon.svg" alt="">
-                    <p><a href="{{ route('campaign.list') }}">BACK TO CAMPAIGNS LIST</a></p>
+    <main class="main-layout-container">
+        <div class="campaign-contact-list" id="campaign-contacts">
+            <!-- first-block-btn -->
+            <div class="first-block-btn">
+                <div class="btn-back-img">
+                    <div id="back-to-campaigns">
+                        <img src="./imgs/icon/Back-Icon.svg" alt="">
+                        <p><a href="#">BACK TO CAMPAIGNS LIST</a></p>
+                    </div>
+                    <div id="back-to-campaign" style="display: none">
+                        <img src="./imgs/icon/Back-Icon.svg" alt="">
+                        <p><a href="#">BACK TO CAMPAIGN</a></p>
+                    </div>
+                    <!-- <div id="delete-campaigns" data-toggle="modal" data-target="#deleteModal" style="display: none">
+                        <img src="/main/images/icon/trash.svg" alt="">
+                        <p>DELETE CAMPAIGN</p>
+                    </div> -->
                 </div>
-                <div id="back-to-campaign" style="display: none">
-                    <img src="/main/images/icon/Back-Icon.svg" alt="">
-                    <p><a href="#">BACK TO CAMPAIGN</a></p>
-                </div>
-                <div id="delete-campaigns" data-toggle="modal" data-target="#deleteModal" style="display: none">
-                    <img src="/main/images/icon/trash.svg" alt="">
-                    <p>DELETE CAMPAIGN</p>
-                </div>
-            </div>
-        </div><!-- first-block-btn -->
+            </div><!-- first-block-btn -->
+        </div>
     </main> <!-- Main -->
 </body>
 
