@@ -270,6 +270,27 @@
             </div>
         </div>
     </header> <!-- Header-->
+
+    <!-- Main -->
+    <main>
+        <!-- first-block-btn -->
+        <div class="first-block-btn">
+            <div class="btn-back-img">
+                <div id="back-to-campaigns">
+                    <img src="/main/images/icon/Back-Icon.svg" alt="">
+                    <p><a href="{{ route('campaign.list') }}">BACK TO CAMPAIGNS LIST</a></p>
+                </div>
+                <div id="back-to-campaign" style="display: none">
+                    <img src="/main/images/icon/Back-Icon.svg" alt="">
+                    <p><a href="#">BACK TO CAMPAIGN</a></p>
+                </div>
+                <div id="delete-campaigns" data-toggle="modal" data-target="#deleteModal" style="display: none">
+                    <img src="/main/images/icon/trash.svg" alt="">
+                    <p>DELETE CAMPAIGN</p>
+                </div>
+            </div>
+        </div><!-- first-block-btn -->
+    </main> <!-- Main -->
 </body>
 
 </html>
