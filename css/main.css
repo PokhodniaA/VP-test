@@ -850,6 +850,349 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.main-layout-container .campaign-contact-list .title-btn {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .simple-text-campaign {
+  font: normal normal 16px "SF-Pro-Rounded-Bold";
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin-right: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .campaign-settings-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url(../../imgs/icon/CampaignEdit-Icon-Small.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 13px;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex img {
+  margin-right: 10px;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex p {
+  font: normal normal 18px "SF-Pro-Rounded-Light";
+  line-height: 18px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .first-title {
+  position: relative;
+  width: 22%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title {
+  position: relative;
+  width: 41%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title .simple-paragraph {
+  font: normal normal 18px "SF-Pro-Rounded-Light";
+  line-height: 18px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title .block-month {
+  font: normal normal 16px "SF-Pro-Rounded-Medium";
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 25px;
+  margin: 0 20px 0 10px;
+  padding: 5px 18px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title {
+  position: relative;
+  width: 25%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .campaign-location-settings {
+  margin-left: 10px;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 3px 5px 3px 10px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: default;
+  position: relative;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex .selected-countries img {
+  width: 17px;
+  height: 10px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex .selected-countries span {
+  font: normal normal 18px "SF-Pro-Rounded-Light";
+  color: #fff;
+  margin-right: 15px;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tags-selected ul {
+  overflow-y: scroll;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .simple-paragraph {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.33);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 10px 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  color: #fff;
+  font: normal normal 18px "SF-Pro-Rounded-Light";
+  line-height: 18px;
+  position: relative;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .cancel-btn {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  margin-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .cancel-btn::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../imgs/icon/close_icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+@media (max-width: 1600px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign {
+    max-width: 835px;
+    padding: 20px 25px 10px 30px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.26px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    max-width: 570px;
+    font-size: 42px;
+    line-height: 45px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title .characters-number-layer {
+    margin-top: 5px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input {
+    margin-left: 0;
+    width: 31px;
+    height: 31px;
+    margin-bottom: 25px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input img {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
+    width: 177px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts ::after {
+    margin-bottom: 5px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
+    margin-top: 20px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .simple-text-campaign {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.26px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .campaign-settings-button {
+    width: 22px;
+    height: 22px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex img {
+    margin-right: 5px;
+    height: 20px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .simple-paragraph {
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .block-month {
+    font-size: 13px;
+    margin: 0 15px 0 5px;
+    line-height: 16px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .end {
+    margin-right: 0;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title {
+    width: 45%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title {
+    width: 30%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block {
+    margin-top: 15px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed {
+    width: 22px;
+    height: 22px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign {
+    border-radius: 6px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    max-width: 390px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .simple-text-campaign {
+    font-size: 12px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .block-month {
+    font-size: 12px !important;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .simple-paragraph {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title {
+    display: block;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    width: 100% !important;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
+    width: 175px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 3px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
+    display: block;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex {
+    margin-top: 5px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .first-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title .simple-paragraph {
+    display: none;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title .selected-countries span {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+
 *,
 *::before,
 *::after {

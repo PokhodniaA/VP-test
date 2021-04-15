@@ -309,7 +309,7 @@
                     <div class="first-title">
                         <div class="dropdown campaign-type-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN TYPE</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
+                            <div class="vp-button campaign-settings-button " id="dropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex" id="selected-type">
@@ -320,8 +320,8 @@
                     <div class="second-title">
                         <div class="dropdown campaign-date-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN START AND END DATES</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
+                            <div class="vp-button campaign-settings-button" id="dropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex">
                             <img src="./imgs/icon/start-button.png" alt="">
@@ -336,8 +336,8 @@
                         <div
                             class="dropdown campaign-location-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN LOCATION(S)</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
+                            <div class="vp-button campaign-settings-button" id="dropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex">
                             <img src="./imgs/icon/pin.png" alt="">
@@ -354,17 +354,34 @@
                             <div class="d-flex align-items-center justify-content-start">
                                 <h3 class="simple-text-campaign">CAMPAIGN TAG(S)</h3>
                                 <div class="campaign-tags-changed">
-                                    <img src="./imgs/icon/CampaignEdit-Icon-Small.svg" id="campaign-tags-change"
-                                        style="display: none;" alt="">
+                                    <img src="./imgs/icon/CampaignEdit-Icon-Small.svg" id="campaign-tags-change" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="title-and-img-flex tags-selected">
-                            <div class="d-flex selected-tags">
-                                <div class='tag-option'>
-                                    <div class='simple-paragraph'>Single</div>
-                                </div>
-                            </div>
+                            <ul class="d-flex selected-tags">
+                                <li class='tag-option'>
+                                    <div class='simple-paragraph'>
+                                        <span class="cancel-btn">x</span>
+                                        Single
+                                    </div>
+
+                                </li>
+                                <li class='tag-option'>
+                                    <div class='simple-paragraph'>
+                                        <span class="cancel-btn">x</span>
+                                        Music Release
+                                    </div>
+
+                                </li>
+                                <li class='tag-option'>
+                                    <div class='simple-paragraph'>
+                                        <span class="cancel-btn">x</span>
+                                        Influecner
+                                    </div>
+
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
