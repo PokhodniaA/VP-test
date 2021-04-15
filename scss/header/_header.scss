@@ -12,7 +12,11 @@
     width: 90%;
     margin: auto;
     max-width: 1170px;
-    @include margin-or-padding(padding, 10px 0);
+    @include margin-or-padding(padding, 0.625rem 0) /*10px 0*/;
+
+    .mobile-header-wrapper {
+      display: none;
+    }
 
     .header-wrapper {
       display: flex;
@@ -38,8 +42,8 @@
           text-transform: uppercase;
           letter-spacing: 0.0625rem /*1px*/;
           background-color: rgb(13, 119, 242);
-          @include margin-or-padding(padding, 4px 8px); //!
-          @include margin-padding-side(left, margin, 10);
+          @include margin-or-padding(padding, 0.25rem 0.5rem); /*4px 8px*/ //!
+          @include margin-padding-side(left, margin, 10); /*10px*/
           @include border-radius(4px);
         }
       }
@@ -47,7 +51,7 @@
       .vp-menu {
         max-width: 445px;
         width: 100%;
-        @include margin-or-padding(margin, 0 20px);
+        @include margin-or-padding(margin, 0 1.25rem); /*0 20px*/
 
         #vp-nav-bar {
           padding: 0;
@@ -67,10 +71,10 @@
           -moz-box-pack: justify;
           -ms-flex-pack: justify;
           justify-content: space-between;
-          min-height: 59px; // Исправить
+          min-height: 3.688rem; // 59px
 
           li {
-            width: 142px;
+            width: 8.875rem; //142px
             &.current-page-item {
               background: #282d45;
               border-radius: 12px;
@@ -98,7 +102,7 @@
                 $size: 1rem /*16px*/,
                 $family: "SF-Pro-Rounded-Regular"
               );
-              @include margin-or-padding(padding, 9px 24px);
+              @include margin-or-padding(padding, 0.563rem 1.5rem); //9px 24px
               @extend %position-relative;
               z-index: 2;
 
@@ -134,9 +138,9 @@
 
               svg {
                 width: 100%;
-                height: 16px;
+                height: 1rem; //16px
                 fill: #fff;
-                margin-bottom: 7px;
+                margin-bottom: 0.438rem; //7px
               }
             }
           }
@@ -149,12 +153,12 @@
         justify-content: flex-end;
 
         .vp-button {
-          @include size-square(54px);
+          @include size-square(3.375rem); //54px
         }
 
         .vp-bell {
           position: relative;
-          margin-right: 20px;
+          margin-right: 1.25rem; //20px
 
           display: flex;
           align-items: center;
@@ -190,7 +194,7 @@
   .vp-header {
     .main-header {
       max-width: 835px;
-      @include margin-or-padding(padding, 5px 0);
+      @include margin-or-padding(padding, 0.313rem 0); //5px 0
 
       .header-wrapper {
         .vp-log {
@@ -198,7 +202,10 @@
 
           span {
             font-size: 0.6875rem /*11px*/;
-            @include margin-or-padding(padding, 3px 6px 2px);
+            @include margin-or-padding(
+              padding,
+              0.188rem 0.375rem 0.125rem
+            ); //3px 6px 2px
             @include margin-padding-side(left, margin, 7);
             line-height: 0.813rem /*11px*/;
           }
@@ -216,23 +223,24 @@
               }
               a {
                 font-size: 0.875rem /*14px*/;
-                @include margin-or-padding(padding, 10px 13px);
+                @include margin-or-padding(padding, 0.625rem 0.813rem)
+                  //10px 13px;
+;
               }
             }
           }
         }
         .vp-controller {
           .vp-button {
-            @include size-square(45px);
+            @include size-square(2.813rem); //45px
           }
           .vp-bell {
-            margin-right: 15px;
+            margin-right: 15px; //15px
           }
           .vp-user-initials {
             span {
               font-size: 1.125rem /*18px*/;
             }
-            
           }
         }
       }
@@ -251,8 +259,8 @@
             li {
               a {
                 svg {
-                  height: 14px;
-                  margin-bottom: 3px;
+                  height: 0.875rem; //14px
+                  margin-bottom: 0.188rem; //3px
                 }
               }
             }
@@ -263,20 +271,10 @@
             margin-right: 10px;
 
             img {
-              width: 20px;
+              width: 1.25rem; //20px
             }
           }
         }
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .vp-header {
-    .main-header {
-      .mobile-header-wrapper {
-        display: none;
       }
     }
   }
@@ -290,6 +288,8 @@
       }
 
       .mobile-header-wrapper {
+        display: block;
+
         .mobile-header-block {
           width: 100%;
           position: relative;
@@ -340,8 +340,8 @@
 
             .vp-bell {
               // Объеденить
-              width: 30px;
-              height: 30px;
+              width: 1.875rem;//30px
+              height: 1.875rem;//30px
               cursor: pointer;
 
               position: relative;
@@ -365,15 +365,15 @@
               justify-content: center;
 
               img {
-                width: 15px;
+                width: 0.938rem;//15px
               }
             }
 
             .vp-user-initials {
               // Объеденить
               overflow: hidden;
-              width: 30px;
-              height: 30px;
+              width: 1.875rem;//30px
+              height: 1.875rem;//30px
               cursor: pointer;
 
               margin-right: 15px;
@@ -414,15 +414,15 @@
                 justify-content: center;
 
                 span {
-                  font: normal normal 13px "SF-Pro-Rounded-Semibold";
+                  font: normal normal 0.813rem /*13px*/"SF-Pro-Rounded-Semibold";
                   color: #fff;
                 }
               }
             }
 
             .mobile-menu-icon {
-              width: 23px;
-              height: 20px;
+              width: 1.438rem; //23px
+              height: 1.25rem; //20px
 
               .burger {
                 width: 100%;
@@ -496,11 +496,11 @@
                         font-size: 0.875rem /*14px*/;
                       }
                       div[class*="vp-notify-icon-"] {
-                        @include size-square(40px);
-                        min-width: 40px;
+                        @include size-square(2.5rem); //40px
+                        min-width: 2.5rem; //40px
 
                         span[class*="vp-bounced-"] {
-                          @include size-square(20px);
+                          @include size-square(1.25rem);//20px
                         }
                       }
                       .notification-text {
