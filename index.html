@@ -290,22 +290,12 @@
                             <h5>CAMPAIGN TITLE</h5>
                             <div class="d-flex align-items-center">
                                 <div class="content-input">
-                                    <input id="campaign-input-select" maxlength="24" value="">
-                                    <div class="characters-number-layer">
-                                        <div class="characters-number">
-                                            <p><span id="characters-number-input">0</span> characters left</p>
-                                        </div>
-                                    </div>
+                                    <input id="campaign-input-select" maxlength="24" value="Single Record Release #1">
+                                    <div class="characters-number-layer"></div>
                                 </div>
                                 <div>
-                                    <div id="change-text-in-input" style="display: none;">
-                                        <img src="/main/images/icon/CampaignEdit-Icon-Large.svg" alt="">
-                                    </div>
-                                    <div class="btn-save">
-                                        <div class="d-flex">
-                                            <img src="/main/images/icon/AcceptCheckmark.svg" id="save-input" alt="">
-                                            <img src="/main/images/icon/CancelX.svg" id="cancel-save" alt="">
-                                        </div>
+                                    <div id="change-text-in-input">
+                                        <img src="./imgs/icon/CampaignEdit-Icon-Large.svg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -319,113 +309,42 @@
                     <div class="first-title">
                         <div class="dropdown campaign-type-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN TYPE</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
-                            <div class="dropdown-menu campaign-type-block" aria-labelledby="dropdownMenuLink">
-                                <div class="popup-campaign-type">
-                                    <div class="content">
-                                        <div class="record-label-signing simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/vinyls.png" alt="">
-                                                <p>Record label singing</p>
-                                            </div>
-                                        </div>
-                                        <div class="music-release simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/music-player.png" alt="">
-                                                <p>Music release</p>
-                                            </div>
-                                        </div>
-                                        <div class="frame simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/PR.svg" alt="">
-                                                <p>PR</p>
-                                            </div>
-                                        </div>
-                                        <div class="social-media-influencers simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/social-media.png" alt="">
-                                                <p>Social Media influencers</p>
-                                            </div>
-                                        </div>
-                                        <div class="tour simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/script.png" alt="">
-                                                <p>Tour/Show bookings</p>
-                                            </div>
-                                        </div>
-                                        <div class="photographers simple-style campaign-type">
-                                            <div class="left-rgb"></div>
-                                            <div class="simple-content">
-                                                <img src="/main/images/icon/camera.png" alt="">
-                                                <p>Photographers</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex" id="selected-type">
-                            <img src="" alt="">
-                            <p class="simple-paragraph"></p>
+                            <img src="./imgs/icon/music-player.png" alt="">
+                            <p class="simple-paragraph">Music release</p>
                         </div>
                     </div>
                     <div class="second-title">
                         <div class="dropdown campaign-date-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN START AND END DATES</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
-                            <div class="dropdown-menu campaign-date-block" aria-labelledby="dropdownMenuLink">
-                                <div class="popup-date-picker">
-                                    <div class="campaign-checked-date">
-                                        <div class="date-header">
-                                            <div type="text" id="checkin">START DATE</div>
-                                            <div type="text" id="checkout">END DATE</div>
-                                        </div>
-                                        <div id="datepicker"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex">
-                            <img src="/main/images/icon/start-button.png" alt="">
+                            <img src="./imgs/icon/start-button.png" alt="">
                             <p class="simple-paragraph">Starts at</p>
-                            <div class="block-month start">
-    
-                            </div>
-                            <img src="/main/images/icon/Flag-Icon.svg" alt="">
+                            <div class="block-month start">Jun 11</div>
+                            <img src="./imgs/icon/Flag-Icon.svg" alt="">
                             <p class="simple-paragraph">Finishes at</p>
-                            <div class="block-month end">
-    
-                            </div>
+                            <div class="block-month end">Dec 12</div>
                         </div>
                     </div>
                     <div class="third-title">
-                        <div class="dropdown campaign-location-settings d-flex align-items-center justify-content-start">
+                        <div
+                            class="dropdown campaign-location-settings d-flex align-items-center justify-content-start">
                             <h3 class="simple-text-campaign">CAMPAIGN LOCATION(S)</h3>
-                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
-    
-                            <div class="dropdown-menu campaign-location-block" aria-labelledby="dropdownMenuLink">
-                                <div class="popup-location">
-                                    <div class="question-container" id="question-3">
-                                        <div class="popup-location-title">
-                                            <span>Campaign Location(s)</span>
-                                        </div>
-                                        <div class="select-location">
-                                            <label for="country-selector">Example: <span>Paris, France</span></label>
-                                            <select id="country-selector" multiple="multiple"></select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="vp-button campaign-settings-button dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
                         </div>
                         <div class="title-and-img-flex">
-                            <img src="/main/images/icon/pin.png" alt="">
-                            <div class="selected-countries"></div>
-                            <div class="tooltip-selected-countries"></div>
+                            <img src="./imgs/icon/pin.png" alt="">
+                            <div class="selected-countries">
+                                <img src="./imgs/flags/CA.png" alt="">
+                                <span>Montreal</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -435,28 +354,15 @@
                             <div class="d-flex align-items-center justify-content-start">
                                 <h3 class="simple-text-campaign">CAMPAIGN TAG(S)</h3>
                                 <div class="campaign-tags-changed">
-                                    <img src="/main/images/icon/CampaignEdit-Icon-Small.svg" id="campaign-tags-change"
-                                         style="display: none;" alt="">
-                                </div>
-                                <div class="campaign-tags-edit" style="display: none">
-                                    <img src="/main/images/icon/AcceptCheckmark.svg" id="campaign-tags-save"  alt="">
-                                    <img src="/main/images/icon/CancelX.svg" id="campaign-tags-cancel" alt="">
+                                    <img src="./imgs/icon/CampaignEdit-Icon-Small.svg" id="campaign-tags-change"
+                                        style="display: none;" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="title-and-img-flex tags-selected">
                             <div class="d-flex selected-tags">
-                                <template id="tag-template-campaign">
-                                    <div class='tag-option'>
-                                        <div class='simple-paragraph'></div>
-                                    </div>
-                                </template>
-                            </div>
-                        </div>
-                        <div class="popup-tags"  style="display: none;">
-                            <div class="question-container" id="question-4">
-                                <div class="select-tag">
-                                    <select id="tags-selector" multiple="multiple"></select>
+                                <div class='tag-option'>
+                                    <div class='simple-paragraph'>Single</div>
                                 </div>
                             </div>
                         </div>
