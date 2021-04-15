@@ -16,23 +16,23 @@
         width: 76%;
 
         h5 {
-          font: normal normal 16px "SF-Pro-Rounded-Bold";
-          line-height: 17px;
-          letter-spacing: 0.3px;
+          font: normal normal 1rem/**/ "SF-Pro-Rounded-Bold";
+          line-height: 1.063rem;//17px
+          letter-spacing: 0.019rem; //0.3px
           color: white;
-          margin-bottom: 6px;
+          margin-bottom: 0.375; //6px
         }
 
         .content-input {
           input {
-            font: normal normal 60px "SF-Pro-Rounded-Semibold";
+            font: normal normal 3.75rem /*60px*/"SF-Pro-Rounded-Semibold";
             background: none;
             outline: none;
             border: none;
-            min-width: 40px !important;
-            max-width: 675px;
-            padding: 0 2px 0 2px;
-            line-height: 71px;
+            min-width: 2.5rem !important; //40px
+            max-width: 42.188rem; //675px
+            padding: 0 0.125rem; // 0 2px 0 2px;
+            line-height: 4.438rem;//71px
             color: #fff;
             border-bottom: 2px solid rgba(255, 255, 255, 0);
             overflow: hidden;
@@ -42,16 +42,16 @@
             border-bottom-color: rgba(255, 255, 255, 0);
           }
           .characters-number-layer {
-            height: 20px;
-            margin-top: 10px;
+            height: 1.25rem; //20px
+            margin-top: 0.625rem;//10px
           }
         }
 
         #change-text-in-input {
-          margin-left: 15px;
+          margin-left: 0.938rem;//15px
           cursor: pointer;
-          width: 82px;
-          margin-bottom: 25px;
+          width: 5.125rem; //82px
+          margin-bottom: 1.563rem; // 25px
         }
       }
 
@@ -61,34 +61,34 @@
         align-items: center;
 
         button {
-          width: 250px;
-          height: 50px;
+          width: 15.625rem; //250px
+          height: 3.125rem; //50px
           background-color: white;
           border-radius: 25px;
           outline: none;
           border: none;
-          font: normal normal 18px "SF-Pro-Rounded-Medium";
-          line-height: 21px;
+          font: normal normal 1.125rem /*18px*/"SF-Pro-Rounded-Medium";
+          line-height: 1.313;//21px
           color: #282d45;
 
-          &:first-child {
-            margin-bottom: 10px;
+          &:first-child { // Возможно убрать в mobile
+            margin-bottom: 10px; 
           }
         }
       }
     }
 
     .title-btn {
-      margin-top: 70px;
+      margin-top: 4.375rem; //70px
       display: flex;
       justify-content: space-between;
 
       .simple-text-campaign {
-        font: normal normal 16px "SF-Pro-Rounded-Bold";
-        line-height: 16px;
-        letter-spacing: 0.3px;
+        font: normal normal 1rem /*16px*/"SF-Pro-Rounded-Bold";
+        line-height: 1rem; //16px
+        letter-spacing: 0.019rem; //0.3px
         color: #fff;
-        margin-right: 6px;
+        margin-right: 0.375rem; //6px
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -108,15 +108,15 @@
       .title-and-img-flex {
         display: flex;
         align-items: center;
-        margin-top: 13px;
+        margin-top: 0.813rem; //13px
 
         img {
-          margin-right: 10px;
+          margin-right: 0.625rem;//10px
         }
 
         p {
-          font: normal normal 18px "SF-Pro-Rounded-Light";
-          line-height: 18px;
+          font: normal normal 1.125rem/*18px*/ "SF-Pro-Rounded-Light";
+          line-height: 1.125rem/*18px*/;
           color: #fff;
           display: -webkit-box;
           display: -webkit-flex;
@@ -141,8 +141,8 @@
         width: 41%;
 
         .simple-paragraph {
-          font: normal normal 18px "SF-Pro-Rounded-Light";
-          line-height: 18px;
+          font: normal normal 1.125rem/*18px*/ "SF-Pro-Rounded-Light";
+          line-height: 1.125rem/*18px*/;
           color: #fff;
           display: -webkit-box;
           display: -webkit-flex;
@@ -157,12 +157,12 @@
         }
 
         .block-month {
-          font: normal normal 16px "SF-Pro-Rounded-Medium";
+          font: normal normal 1rem /*16px*/"SF-Pro-Rounded-Medium";
           background-color: rgba(0, 0, 0, 0.3);
           color: #fff;
           border-radius: 25px;
-          margin: 0 20px 0 10px;
-          padding: 5px 18px;
+          margin: 0 20px 0 10px; //0 20px 0 10px
+          padding: 5px 18px; //5px 18px
           text-transform: uppercase;
           display: -webkit-box;
           display: -webkit-flex;
@@ -188,13 +188,13 @@
         width: 25%;
 
         .campaign-location-settings {
-          margin-left: 10px;
+          margin-left: 0.625rem; //10px
         }
 
         .title-and-img-flex {
-          margin-top: 10px;
-          margin-right: 20px;
-          padding: 3px 5px 3px 10px;
+          margin-top: 0.625rem; //10px
+          margin-right: 1.25rem; //20px
+          padding: 0.188rem 0.313rem 0.188rem 0.625rem; // 3px 5px 3px 10px
           border-radius: 25px;
           background-color: rgba(255, 255, 255, 0);
           cursor: default;
@@ -207,16 +207,16 @@
 
           .selected-countries {
             img {
-              width: 17px;
-              height: 10px;
-              margin-right: 5px;
-              margin-bottom: 1px;
+              width: 1.063rem; //17px
+              height: 0.625rem; //10px
+              margin-right: 0.313rem; //5px
+              margin-bottom: 0,063rem; // 1px
             }
 
             span {
-              font: normal normal 18px "SF-Pro-Rounded-Light";
+              font: normal normal 1.125rem /*18px*/"SF-Pro-Rounded-Light";
               color: #fff;
-              margin-right: 15px;
+              margin-right: 0.938rem; //15px
             }
           }
         }
@@ -224,12 +224,7 @@
     }
 
     .fourth-title {
-        .tags-selected{
-            ul{
-                overflow-y: scroll;
-            }
-        }
-
+        
       .tag-option {
         .simple-paragraph {
           border: none;
@@ -237,31 +232,31 @@
           display: flex;
           align-items: center;
           flex-direction: row-reverse;
-          padding: 10px 25px;
-          margin-right: 10px;
-          margin-bottom: 10px;
+          padding: 0.625rem 1.563rem; //10px 25px
+          margin-right: 0.625rem; //10px
+          margin-bottom: 0.625rem; //10px
           border-radius: 50px;
           color: #fff;
-          font: normal normal 18px "SF-Pro-Rounded-Light";
-          line-height: 18px;
+          font: normal normal 1.125 /*18px*/"SF-Pro-Rounded-Light";
+          line-height: 1.125 /*18px*/;
           position: relative;
         }
 
         .cancel-btn {
           position: relative;
           display: block;
-          width: 16px;
-          height: 16px;
+          width: 1rem; //16px
+          height: 1rem; //16px
           margin-right: 0;
-          margin-left: 10px;
+          margin-left: 1rem; //16px
           color: transparent;
           cursor: pointer;
 
           &::after {
             content: "";
             display: block;
-            width: 16px;
-            height: 16px;
+            width: 1rem; //16px
+            height: 1rem; //16px
             background-image: url(../../imgs/icon/close_icon.svg);
             background-repeat: no-repeat;
             background-size: contain;
@@ -287,25 +282,25 @@
         .campaign-title {
           .block-with-title {
             h5 {
-              font-size: 13px;
-              line-height: 15px;
-              margin-bottom: 5px;
-              letter-spacing: 0.26px;
+              font-size: 0.813rem; //13px
+              line-height: 0.938rem; //15px
+              margin-bottom: 0.313rem; //5px
+              letter-spacing: 0.016rem; //0.26px
             }
 
             #campaign-input-select {
               max-width: 570px;
-              font-size: 42px;
-              line-height: 45px;
+              font-size: 2.625rem;//42px
+              line-height: 2.813rem; //45px
             }
 
             .characters-number-layer {
-              margin-top: 5px;
+              margin-top: 0.313rem; //5px
             }
 
             #change-text-in-input {
               margin-left: 0;
-              width: 31px;
+              width: 31px; 
               height: 31px;
               margin-bottom: 25px;
 
@@ -319,8 +314,8 @@
             #top-campaign-contacts {
               width: 177px;
               height: 40px;
-              font-size: 15px;
-              line-height: 18px;
+              font-size: 0.938rem;//15px
+              line-height: 1.125rem; //18px
 
               ::after {
                 margin-bottom: 5px;
@@ -330,33 +325,33 @@
         }
 
         .title-btn {
-          margin-top: 20px;
+          margin-top: 1.25rem; //20px
 
           .simple-text-campaign {
-            font-size: 13px;
-            line-height: 15px;
-            letter-spacing: 0.26px;
+            font-size: 0.813rem; //13px
+            line-height: 0.938rem; //15px
+            letter-spacing: 0.016rem; //0.26px
           }
 
           .campaign-settings-button {
-            @include size-square(22px);
+            @include size-square(1.375rem); //22px
           }
 
           .title-and-img-flex {
             img {
-              margin-right: 5px;
-              height: 20px;
+              margin-right: 0.313rem; //5px
+              height: 1.25rem; //20px
             }
 
             .simple-paragraph {
-              font-size: 15px;
-              line-height: 14px;
+              font-size: 0.938rem; //15px
+              line-height: 0.875rem; //14px
             }
 
             .block-month {
-              font-size: 13px;
-              margin: 0 15px 0 5px;
-              line-height: 16px;
+              font-size: 0.813rem; //13px
+              margin: 0 0.938rem 0 0.313rem; //0 15px 0 5px
+              line-height: 1rem; //16px
             }
             .end {
               margin-right: 0;
@@ -373,10 +368,10 @@
         }
 
         .campaign-tags-block {
-          margin-top: 15px;
+          margin-top: 0.938rem; //15px
 
           .campaign-tags-changed {
-            @include size-square(22px);
+            @include size-square(1.375rem); //22px
             img {
               width: 100%;
             }
@@ -396,25 +391,25 @@
         .campaign-title {
           .block-with-title {
             h5 {
-              font-size: 12px;
+              font-size: 0.75rem; //12px
               margin-bottom: 0;
             }
 
             #campaign-input-select {
               max-width: 390px;
-              font-size: 30px;
-              line-height: 40px;
+              font-size: 1.875rem; //30px
+              line-height: 2.5rem; //40px
             }
           }
         }
 
         .title-btn {
           .simple-text-campaign {
-            font-size: 12px;
+            font-size: 0.75rem; //12px
           }
 
           .block-month {
-            font-size: 12px !important;
+            font-size: 0.75rem !important; //12px ;
           }
         }
 
@@ -449,8 +444,8 @@
             #top-campaign-contacts {
               width: 175px;
               height: 40px;
-              font-size: 14px;
-              line-height: 16px;
+              font-size: 0.875rem; //14px
+              line-height: 1rem; //16px
               padding-top: 3px;
             }
           }
@@ -460,17 +455,17 @@
           display: block;
 
           .title-and-img-flex {
-            margin-top: 5px;
+            margin-top: 0.313rem; //5px
           }
 
           .first-title {
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem; //20px
           }
 
           .second-title {
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem; //20px;
             .simple-paragraph {
               display: none;
             }
@@ -479,12 +474,23 @@
           .third-title{
               width: 100%;
 
+              .campaign-location-settings{
+                  margin-left: 0;
+              }
+
               .selected-countries{
                   span{
-                    font-size: 14px;
-                    margin-right: 10px;
+                    font-size: 0.875rem; //14px
+                    margin-right: 0.625rem; //10px
                   }
               }
+          }
+          .fourth-title{
+            .tags-selected{
+                ul{
+                    overflow-y: scroll;
+                }
+            }
           }
         }
       }
