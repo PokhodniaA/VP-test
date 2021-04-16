@@ -326,59 +326,174 @@
       }
 
       .btn-block-messages {
-          width: 290px;
+        width: 290px;
         .container-btn {
-            .simple-style-btn{
-                font-size: 14px;
-            }
+          .simple-style-btn {
+            font-size: 14px;
+          }
 
-            .scheduled{
-                padding: 10px 25px;
-            }
+          .scheduled {
+            padding: 10px 25px;
+          }
 
-            .active{
-                padding: 10px 0; 
-            }
+          .active {
+            padding: 10px 0;
+          }
         }
       }
 
       .compose-message {
         button {
-            font-size: 14px;
+          font-size: 14px;
         }
       }
     }
 
-    .fifth-block-info-messages{
+    .fifth-block-info-messages {
+      margin-top: 30px;
+
+      .content {
+        padding: 16px 30px 17px;
+
+        .d-flex {
+          margin-bottom: 5px;
+        }
+
+        .title {
+          font-size: 17px;
+        }
+
+        .month {
+          font-size: 13px;
+        }
+
+        .description {
+          font-size: 15px;
+        }
+      }
+
+      .message-contacts {
+        .img-block {
+          width: 42px;
+          height: 42px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fourth-campaign-message {
+    .third-block-progress-bar {
+      .progress-bar-block {
+        .progress-simple-style {
+          height: 225px;
+          padding: 20px;
+
+          .rounder-img {
+            width: 40px;
+            height: 40px;
+            img {
+              width: 22px;
+            }
+          }
+
+          h1 {
+            font-size: 14px;
+            margin-left: 5px;
+          }
+
+          .position-progress-simple {
+            margin-top: 15px;
+
+            .progress {
+              width: 125px;
+              height: 125px;
+            }
+          }
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 30px;
+
+      .btn-block-messages {
+        .container-btn {
+          .simple-style-btn {
+            font-size: 12px;
+          }
+
+          .scheduled {
+            padding: 10px 25px;
+          }
+
+          .active {
+            padding: 10px 0;
+          }
+        }
+      }
+
+      .compose-message {
+        button {
+          width: 110px;
+          padding: 14px 16px 15px;
+        }
+      }
+    }
+
+    .fifth-block-info-messages {
+      margin-top: 20px;
+
+      .content {
+        padding: 20px 30px;
+        border-radius: 6px;
+
+        .content-info {
+          margin-right: 5px;
+        }
+
+        .title {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .fourth-campaign-message {
+    .third-block-progress-bar {
+      .progress-bar-block {
+        display: block;
+        .progress-simple-style {
+            width: 100%;
+            margin: auto auto 15px;
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 15px;
+      display: block;
+      .title {
+        h1 {
+          font-size: 24px;
+        }
+      }
+
+      .btn-block-messages {
+        margin: 15px auto auto;
+      }
+
+      .compose-message {
         margin-top: 30px;
 
-        .content{
-            padding: 16px 30px 17px;
-
-            .d-flex{
-                margin-bottom: 5px;
-            }
-
-            .title{
-                font-size: 17px;
-            }
-
-            .month{
-                font-size: 13px;
-            }
-
-            .description{
-                font-size: 15px;
-            }
+        button{
+            width: 100%;
+            margin: 0;
         }
-
-        .message-contacts {
-            .img-block{
-                width: 42px;
-                height: 42px;
-            }
-        }
-        
+      }
     }
   }
 }
