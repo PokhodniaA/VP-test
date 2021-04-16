@@ -1,0 +1,498 @@
+.fourth-campaign-message {
+  max-width: 73.125rem; //1170px
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .third-block-progress-bar {
+    width: 100%;
+    position: relative;
+    margin-top: 0.938rem; //15px
+    .progress-bar-block {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .progress-simple-style {
+        width: 23.625rem; //378px
+        height: 20.125rem; //322px
+        background-color: rgba(25, 30, 54, 0.25);
+        border-radius: 12px;
+        padding: 1.875rem 2.125rem; //30px 34px 
+
+        .rounder-img {
+          width: 3.375rem; //54px
+          height: 3.375rem; //54px
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .message {
+          background-color: rgba(102, 227, 172, 0.5);
+        }
+
+        .menu {
+          background-color: rgba(136, 103, 228, 0.5);
+        }
+
+        .accuracy {
+          background-color: rgba(36, 190, 251, 0.5);
+        }
+
+        h1 {
+          font: normal normal 1.125rem /*18px*/"SF-Pro-Rounded-Regular";
+          color: white;
+          letter-spacing: 0.011rem; //0.18px
+          margin-left: 0.938rem; //15px
+          width: 50%;
+        }
+
+        .position-progress-simple {
+          margin-top: 2.625rem; //42px
+
+          .progress {
+            width: 10rem; //160px
+            height: 10rem; //160px
+            background: none;
+            position: relative;
+
+            &::after {
+              content: "";
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+              border: 10px solid #3c415d;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+
+            .progress-value {
+              position: absolute;
+              top: 0;
+              left: 0;
+
+              .text-inside-progress {
+                display: flex;
+                font: normal normal 2.688rem/*43px*/ "SF-Pro-Rounded-Medium";
+                color: white;
+
+                span {
+                  display: flex;
+                  font: normal normal 2.688rem/*43px*/  "SF-Pro-Rounded-Light";
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .element-center {
+        margin: 0 0.625rem; //0 10px
+      }
+    }
+  }
+
+  .fourth-block-messages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3.75rem; //60px
+    .title {
+      h1 {
+        font: normal normal 3.125rem /*50px*/"SF-Pro-Rounded-Semibold";
+        color: white;
+        padding-bottom: 0.938rem; //15px
+      }
+
+      p {
+        font: normal normal 1rem /*16px*/"SF-Pro-Rounded-Light";
+        color: #797d95;
+      }
+    }
+
+    .btn-block-messages {
+      width: 20.313rem; //325px
+      height: 100%;
+      border-radius: 25px;
+      background-color: #3c415d;
+      padding: 0.25rem; //4px
+      margin-left: 0.625rem; //10px
+
+      .container-btn {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .simple-style-btn {
+          background: none;
+          outline: none;
+          color: white;
+          border: none;
+          font: normal normal 0.875rem /*14px*/"SF-Pro-Rounded-Semibold";
+          text-transform: uppercase;
+        }
+
+        .sent {
+          width: 5.875rem; //94px
+          height: 100%;
+          border-radius: 21px;
+        }
+
+        .scheduled {
+          padding: 0.875rem 2.5rem; //14px 40px
+          height: 100%;
+        }
+
+        .draft {
+          width: 5.875rem; //94px
+          height: 100%;
+          border-radius: 21px;
+        }
+
+        .active {
+          border-radius: 21px;
+          padding: 0.875rem 0; //14px 0 
+          background: #1279f1 !important;
+          background: linear-gradient(
+            176deg,
+            #1279f1 0%,
+            #0c4ce3 100%
+          ) !important;
+        }
+      }
+    }
+
+    .compose-message {
+      button {
+        font: normal normal 1.125rem /*18px*/ "SF-Pro-Rounded-Medium";
+        color: #fff;
+        letter-spacing: 0.025rem; //0.4px
+        background-color: #0d77f2;
+        border-radius: 50px;
+        padding: 0.875rem 1.25rem 0.938rem; //14px 20px 15px
+        border: 0;
+        display: flex;
+        margin-left: 0.625rem; //10px
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .fifth-block-info-messages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem; //40px
+    .content {
+      background-color: rgb(47, 52, 77);
+      border-radius: 12px;
+      padding: 1.875rem 2.875rem; //30px 46px 
+      margin-bottom: 0.625rem; //10px
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.2s ease-in-out;
+
+      .d-flex {
+        margin-bottom: 0.625rem; //10px;
+      }
+
+      .title {
+        font: normal normal 1.375rem /*22px*/"SF-Pro-Rounded-Semibold";
+        margin-right: 0.625rem; //10px;
+        color: white;
+      }
+
+      .month {
+        font: normal normal 1rem /*16px*/ "SF-Pro-Rounded-Light";
+        color: #797d95;
+      }
+
+      .description {
+        font: normal normal 1rem /*16px*/  "SF-Pro-Rounded-Light";
+        color: white;
+      }
+    }
+
+    .message-contacts {
+      // margin: 10px auto auto 10px;
+      display: flex;
+      align-items: center;
+      .img-block {
+        position: relative;
+
+        width: 3.375rem; //54px
+        height: 3.375rem;
+        border-radius: 100%;
+        border: 5px solid #2f344d;
+        transform: scale(1.25);
+
+        &:last-child {
+          margin-left: -0.313rem; //5px
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .btn-load-more-messages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2.5rem 0; //40px
+
+    button {
+      font: normal normal 18px "SF-Pro-Rounded-Medium";
+      line-height: 21px;
+      border: none;
+      outline: none;
+      background: none;
+      color: rgb(167, 171, 193);
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .fourth-campaign-message {
+    max-width: 52.188rem; //835px
+
+    .third-block-progress-bar {
+      .progress-bar-block {
+        .progress-simple-style {
+          height: 16.875rem; //270px
+          padding: 1.563rem 1.875rem; //25px 30px 
+
+          .rounder-img {
+            width: 2.813rem; //45px
+            height: 2.813rem; //45px
+            img {
+              width: 1.563rem; //25px
+            }
+          }
+
+          h1 {
+            font-size: 0.938rem; //15px
+            margin-left: 0.625rem; //10px
+          }
+
+          .position-progress-simple {
+            margin-top: 1.25rem; //20px
+
+            .progress {
+              width: 9.375rem; //150px
+              height: 9.375rem;//150px
+
+              .progress-value {
+                .text-inside-progress {
+                  font-size: 1.875rem; //30px
+                  span {
+                    font-size: 1.875rem; //30px
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 4.063rem; //65px
+      .title {
+        h1 {
+          font-size: 2.188rem; //35px
+          padding-bottom: 0.625rem;//10px
+        }
+
+        p {
+          max-width: 25rem; //400px
+          font-size: 0.938rem;  //15px
+          line-height: 1.375rem; // 22px
+        }
+      }
+
+      .btn-block-messages {
+        width: 18.125rem; //290px
+        .container-btn {
+          .simple-style-btn {
+            font-size: 0.875rem; //14px
+          }
+
+          .scheduled {
+            padding: 0.625rem 1.563rem; //10px 25px
+          }
+
+          .active {
+            padding: 0.625rem 0; //10px 0
+          }
+        }
+      }
+
+      .compose-message {
+        button {
+          font-size: 0.875rem; //14px
+        }
+      }
+    }
+
+    .fifth-block-info-messages {
+      margin-top: 1.875rem; //30px
+
+      .content {
+        padding: 1rem 1.875rem 1.063rem; //16px 30px 17px
+
+        .d-flex {
+          margin-bottom: 0.313rem; //5px
+        }
+
+        .title {
+          font-size: 1.063rem; //17px
+        }
+
+        .month {
+          font-size: 0.813rem; //13px
+        } 
+
+        .description {
+          font-size: 0.938rem; //15px
+        }
+      }
+
+      .message-contacts {
+        .img-block {
+          width: 2.625rem; //42px
+          height: 2.625rem; //42px
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fourth-campaign-message {
+    .third-block-progress-bar {
+      .progress-bar-block {
+        .progress-simple-style {
+          height: 14.063rem; //225px
+          padding: 1.25rem; //20px
+
+          .rounder-img {
+            width: 2.5rem; //40px
+            height: 2.5rem;
+            img {
+              width: 1.375rem; //22px
+            }
+          }
+
+          h1 {
+            font-size: 0.875rem; //14px
+            margin-left: 0.313rem; //5px
+          }
+
+          .position-progress-simple {
+            margin-top: 0.938rem; //15px
+
+            .progress {
+              width: 7.813rem; //125px
+              height: 7.813rem; //125px
+            }
+          }
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 1.875rem; //30px
+
+      .btn-block-messages {
+        .container-btn {
+          .simple-style-btn {
+            font-size: 0.75rem; //12px
+          }
+
+          .scheduled {
+            padding: 0.625rem 1.563rem; //10px 25px
+          }
+
+          .active {
+            padding: 0.625rem 0; //10px 0
+          }
+        }
+      }
+
+      .compose-message {
+        button {
+          width: 6.875rem; //110px
+          padding: 0.875rem 1rem 0.938rem; //14px 16px 15px
+        }
+      }
+    }
+
+    .fifth-block-info-messages {
+      margin-top: 1.25rem; //20px
+
+      .content {
+        padding: 1.25rem 1.875rem; //20px 30px
+        border-radius: 6px;
+
+        .content-info {
+          margin-right: 0.313rem; //5px
+        }
+
+        .title {
+          font-size: 1.125rem; //18px
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .fourth-campaign-message {
+    .third-block-progress-bar {
+      .progress-bar-block {
+        display: block;
+        .progress-simple-style {
+            width: 100%;
+            margin: auto auto 0.938rem; // auto auto 15px
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 0.938rem; //15px
+      display: block;
+      .title {
+        h1 {
+          font-size: 1.5rem; //24px
+        }
+      }
+
+      .btn-block-messages {
+        margin: 0.938rem auto auto; //15px autp auto
+      }
+
+      .compose-message {
+        margin-top: 1.875rem; //30px
+
+        button{
+            width: 100%;
+            margin: 0;
+        }
+      }
+    }
+  }
+}
