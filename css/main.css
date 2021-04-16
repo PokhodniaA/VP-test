@@ -698,13 +698,13 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 76px;
+  margin-top: 4.75rem;
 }
 
 .main-layout-container .campaign-contact-list .first-block-btn {
-  max-width: 1170px;
+  max-width: 73.125rem;
   width: 90%;
-  height: 63px;
+  height: 3.938rem;
   margin: auto;
 }
 
@@ -734,7 +734,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p {
@@ -750,11 +750,11 @@ a:hover {
 
 @media (max-width: 1600px) {
   .main-layout-container .campaign-contact-list {
-    margin-top: 70rem;
+    margin-top: 4.375rem;
   }
   .main-layout-container .campaign-contact-list .first-block-btn {
     max-width: 835px;
-    height: 58px;
+    height: 3.625rem;
   }
   .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns,
   .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaign {
