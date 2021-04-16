@@ -1452,7 +1452,7 @@ a:hover {
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .title {
@@ -1518,6 +1518,89 @@ a:hover {
   outline: none;
   background: none;
   color: #a7abc1;
+}
+
+@media screen and (max-width: 1600px) {
+  .fourth-campaign-message {
+    max-width: 835px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
+    height: 270px;
+    padding: 25px 30px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
+    width: 45px;
+    height: 45px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
+    width: 25px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
+    margin-top: 20px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
+    width: 150px;
+    height: 150px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress {
+    font-size: 30px;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
+    font-size: 30px;
+  }
+  .fourth-campaign-message .fourth-block-messages {
+    margin-top: 65px;
+  }
+  .fourth-campaign-message .fourth-block-messages .title h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+  .fourth-campaign-message .fourth-block-messages .title p {
+    max-width: 400px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages {
+    width: 290px;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
+    font-size: 14px;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
+    padding: 10px 25px;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
+    padding: 10px 0;
+  }
+  .fourth-campaign-message .fourth-block-messages .compose-message button {
+    font-size: 14px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages {
+    margin-top: 30px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content {
+    padding: 16px 30px 17px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
+    margin-bottom: 5px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .title {
+    font-size: 17px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .month {
+    font-size: 13px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .description {
+    font-size: 15px;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
+    width: 42px;
+    height: 42px;
+  }
 }
 
 *,

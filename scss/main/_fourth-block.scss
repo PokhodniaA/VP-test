@@ -204,7 +204,7 @@
       transition: background-color 0.2s ease-in-out;
 
       .d-flex {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
       }
 
       .title {
@@ -254,7 +254,7 @@
     align-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    
+
     button {
       font: normal normal 18px "SF-Pro-Rounded-Medium";
       line-height: 21px;
@@ -262,6 +262,123 @@
       outline: none;
       background: none;
       color: rgb(167, 171, 193);
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .fourth-campaign-message {
+    max-width: 835px;
+
+    .third-block-progress-bar {
+      .progress-bar-block {
+        .progress-simple-style {
+          height: 270px;
+          padding: 25px 30px;
+
+          .rounder-img {
+            width: 45px;
+            height: 45px;
+            img {
+              width: 25px;
+            }
+          }
+
+          h1 {
+            font-size: 15px;
+            margin-left: 10px;
+          }
+
+          .position-progress-simple {
+            margin-top: 20px;
+
+            .progress {
+              width: 150px;
+              height: 150px;
+
+              .progress-value {
+                .text-inside-progress {
+                  font-size: 30px;
+                  span {
+                    font-size: 30px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .fourth-block-messages {
+      margin-top: 65px;
+      .title {
+        h1 {
+          font-size: 35px;
+          padding-bottom: 10px;
+        }
+
+        p {
+          max-width: 400px;
+          font-size: 15px;
+          line-height: 22px;
+        }
+      }
+
+      .btn-block-messages {
+          width: 290px;
+        .container-btn {
+            .simple-style-btn{
+                font-size: 14px;
+            }
+
+            .scheduled{
+                padding: 10px 25px;
+            }
+
+            .active{
+                padding: 10px 0; 
+            }
+        }
+      }
+
+      .compose-message {
+        button {
+            font-size: 14px;
+        }
+      }
+    }
+
+    .fifth-block-info-messages{
+        margin-top: 30px;
+
+        .content{
+            padding: 16px 30px 17px;
+
+            .d-flex{
+                margin-bottom: 5px;
+            }
+
+            .title{
+                font-size: 17px;
+            }
+
+            .month{
+                font-size: 13px;
+            }
+
+            .description{
+                font-size: 15px;
+            }
+        }
+
+        .message-contacts {
+            .img-block{
+                width: 42px;
+                height: 42px;
+            }
+        }
+        
     }
   }
 }
