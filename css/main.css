@@ -753,7 +753,7 @@ a:hover {
     margin-top: 4.375rem;
   }
   .main-layout-container .campaign-contact-list .first-block-btn {
-    max-width: 835px;
+    max-width: 52.188rem;
     height: 3.625rem;
   }
   .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns,
@@ -764,9 +764,9 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .second-block-campaign {
   width: 90%;
-  max-width: 1170px;
-  border-radius: 12px;
-  padding: 30px 40px;
+  max-width: 73.125rem;
+  border-radius: 0.75rem;
+  padding: 1.875rem 2.5rem;
   background-image: -webkit-gradient(linear, right top, left top, from(#f6367f), to(#fe7470));
   background-image: linear-gradient(-90deg, #f6367f, #fe7470);
 }
@@ -802,7 +802,7 @@ a:hover {
   padding: 0 0.125rem;
   line-height: 4.438rem;
   color: #fff;
-  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -838,7 +838,7 @@ a:hover {
   width: 15.625rem;
   height: 3.125rem;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 1.563rem;
   outline: none;
   border: none;
   font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
@@ -847,7 +847,7 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-btn button:first-child {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .main-layout-container .campaign-contact-list .title-btn {
@@ -872,8 +872,8 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .title-btn .campaign-settings-button {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   border-radius: 50%;
   cursor: pointer;
   background-image: url(../../imgs/icon/CampaignEdit-Icon-Small.svg);
@@ -934,7 +934,7 @@ a:hover {
   font: normal normal 1rem "SF-Pro-Rounded-Medium";
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
-  border-radius: 25px;
+  border-radius: 1.563rem;
   margin: 0 20px 0 10px;
   padding: 5px 18px;
   text-transform: uppercase;
@@ -963,7 +963,7 @@ a:hover {
   margin-top: 0.625rem;
   margin-right: 1.25rem;
   padding: 0.188rem 0.313rem 0.188rem 0.625rem;
-  border-radius: 25px;
+  border-radius: 1.563rem;
   background-color: rgba(255, 255, 255, 0);
   cursor: default;
   position: relative;
@@ -1004,7 +1004,7 @@ a:hover {
   padding: 0.625rem 1.563rem;
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   color: #fff;
   font: normal normal 1.125 "SF-Pro-Rounded-Light";
   line-height: 1.125;
@@ -1039,8 +1039,8 @@ a:hover {
 
 @media (max-width: 1600px) {
   .main-layout-container .campaign-contact-list .second-block-campaign {
-    max-width: 835px;
-    padding: 20px 25px 10px 30px;
+    max-width: 52.188rem;
+    padding: 1.25rem 1.563rem 0.625rem 1.875rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
     font-size: 0.813rem;
@@ -1049,7 +1049,7 @@ a:hover {
     letter-spacing: 0.016rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
-    max-width: 570px;
+    max-width: 35.625rem;
     font-size: 2.625rem;
     line-height: 2.813rem;
   }
@@ -1058,21 +1058,21 @@ a:hover {
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input {
     margin-left: 0;
-    width: 31px;
-    height: 31px;
-    margin-bottom: 25px;
+    width: 1.938rem;
+    height: 1.938rem;
+    margin-bottom: 1.563rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input img {
     width: 100%;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
-    width: 177px;
-    height: 40px;
+    width: 11.063rem;
+    height: 2.5rem;
     font-size: 0.938rem;
     line-height: 1.125rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts ::after {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
     margin-top: 1.25rem;
@@ -1122,14 +1122,14 @@ a:hover {
 
 @media (max-width: 992px) {
   .main-layout-container .campaign-contact-list .second-block-campaign {
-    border-radius: 6px;
+    border-radius: 0.375rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
     font-size: 0.75rem;
     margin-bottom: 0;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
-    max-width: 390px;
+    max-width: 24.375rem;
     font-size: 1.875rem;
     line-height: 2.5rem;
   }
@@ -1157,11 +1157,11 @@ a:hover {
     width: 100% !important;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
-    width: 175px;
-    height: 40px;
+    width: 10.938rem;
+    height: 2.5rem;
     font-size: 0.875rem;
     line-height: 1rem;
-    padding-top: 3px;
+    padding-top: 0.188rem;
   }
   .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
     display: block;
@@ -1237,7 +1237,7 @@ a:hover {
   width: 23.625rem;
   height: 20.125rem;
   background-color: rgba(25, 30, 54, 0.25);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   padding: 1.875rem 2.125rem;
 }
 
@@ -1352,7 +1352,7 @@ a:hover {
 .fourth-campaign-message .fourth-block-messages .btn-block-messages {
   width: 20.313rem;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 1.563rem;
   background-color: #3c415d;
   padding: 0.25rem;
   margin-left: 0.625rem;
@@ -1380,7 +1380,7 @@ a:hover {
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .sent {
   width: 5.875rem;
   height: 100%;
-  border-radius: 21px;
+  border-radius: 1.313rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
@@ -1391,11 +1391,11 @@ a:hover {
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .draft {
   width: 5.875rem;
   height: 100%;
-  border-radius: 21px;
+  border-radius: 1.313rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
-  border-radius: 21px;
+  border-radius: 1.313rem;
   padding: 0.875rem 0;
   background: #1279f1 !important;
   background: linear-gradient(176deg, #1279f1 0%, #0c4ce3 100%) !important;
@@ -1406,7 +1406,7 @@ a:hover {
   color: #fff;
   letter-spacing: 0.025rem;
   background-color: #0d77f2;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   padding: 0.875rem 1.25rem 0.938rem;
   border: 0;
   display: -webkit-box;
@@ -1435,7 +1435,7 @@ a:hover {
 
 .fourth-campaign-message .fifth-block-info-messages .content {
   background-color: #2f344d;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   padding: 1.875rem 2.875rem;
   margin-bottom: 0.625rem;
   display: -webkit-box;
@@ -1485,7 +1485,7 @@ a:hover {
   width: 3.375rem;
   height: 3.375rem;
   border-radius: 100%;
-  border: 5px solid #2f344d;
+  border: 0.313rem solid #2f344d;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
@@ -1511,8 +1511,8 @@ a:hover {
 }
 
 .fourth-campaign-message .btn-load-more-messages button {
-  font: normal normal 18px "SF-Pro-Rounded-Medium";
-  line-height: 21px;
+  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
+  line-height: 1.313rem;
   border: none;
   outline: none;
   background: none;
@@ -1646,7 +1646,7 @@ a:hover {
   }
   .fourth-campaign-message .fifth-block-info-messages .content {
     padding: 1.25rem 1.875rem;
-    border-radius: 6px;
+    border-radius: 0.375rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .content-info {
     margin-right: 0.313rem;
