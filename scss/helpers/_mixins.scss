@@ -162,16 +162,16 @@
 }
 @mixin margin-padding-side($direction, $name, $size-dir) {
     @if($direction == "top") {
-        #{$name}-top: $size-dir + px;
+        #{$name}-top: $size-dir + rem;
     }
     @if($direction == "left") {
-        #{$name}-left: $size-dir + px;
+        #{$name}-left: $size-dir + rem;
     }
     @if($direction == "right") {
-        #{$name}-right: $size-dir + px;
+        #{$name}-right: $size-dir + rem;
     }
     @if($direction == "bottom") {
-        #{$name}-bottom: $size-dir + px;
+        #{$name}-bottom: $size-dir + rem;
     }
 }
 
