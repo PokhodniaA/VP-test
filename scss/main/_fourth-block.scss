@@ -1,5 +1,5 @@
 .fourth-campaign-message {
-  max-width: 1170px;
+  max-width: 73.125rem; //1170px
   width: 90%;
   margin: auto;
   display: flex;
@@ -10,7 +10,7 @@
   .third-block-progress-bar {
     width: 100%;
     position: relative;
-    margin-top: 15px;
+    margin-top: 0.938rem; //15px
     .progress-bar-block {
       width: 100%;
       display: flex;
@@ -18,15 +18,15 @@
       justify-content: space-between;
 
       .progress-simple-style {
-        width: 378px;
-        height: 322px;
+        width: 23.625rem; //378px
+        height: 20.125rem; //322px
         background-color: rgba(25, 30, 54, 0.25);
         border-radius: 12px;
-        padding: 30px 34px;
+        padding: 1.875rem 2.125rem; //30px 34px 
 
         .rounder-img {
-          width: 54px;
-          height: 54px;
+          width: 3.375rem; //54px
+          height: 3.375rem; //54px
           border-radius: 50%;
           display: flex;
           justify-content: center;
@@ -46,19 +46,19 @@
         }
 
         h1 {
-          font: normal normal 18px "SF-Pro-Rounded-Regular";
+          font: normal normal 1.125rem /*18px*/"SF-Pro-Rounded-Regular";
           color: white;
-          letter-spacing: 0.18px;
-          margin-left: 15px;
+          letter-spacing: 0.011rem; //0.18px
+          margin-left: 0.938rem; //15px
           width: 50%;
         }
 
         .position-progress-simple {
-          margin-top: 42px;
+          margin-top: 2.625rem; //42px
 
           .progress {
-            width: 160px;
-            height: 160px;
+            width: 10rem; //160px
+            height: 10rem; //160px
             background: none;
             position: relative;
 
@@ -80,12 +80,12 @@
 
               .text-inside-progress {
                 display: flex;
-                font: normal normal 43px "SF-Pro-Rounded-Medium";
+                font: normal normal 2.688rem/*43px*/ "SF-Pro-Rounded-Medium";
                 color: white;
 
                 span {
                   display: flex;
-                  font: normal normal 43px "SF-Pro-Rounded-Light";
+                  font: normal normal 2.688rem/*43px*/  "SF-Pro-Rounded-Light";
                   color: white;
                 }
               }
@@ -95,7 +95,7 @@
       }
 
       .element-center {
-        margin: 0 10px;
+        margin: 0 0.625rem; //0 10px
       }
     }
   }
@@ -105,27 +105,27 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 60px;
+    margin-top: 3.75rem; //60px
     .title {
       h1 {
-        font: normal normal 50px "SF-Pro-Rounded-Semibold";
+        font: normal normal 3.125rem /*50px*/"SF-Pro-Rounded-Semibold";
         color: white;
-        padding-bottom: 15px;
+        padding-bottom: 0.938rem; //15px
       }
 
       p {
-        font: normal normal 16px "SF-Pro-Rounded-Light";
+        font: normal normal 1rem /*16px*/"SF-Pro-Rounded-Light";
         color: #797d95;
       }
     }
 
     .btn-block-messages {
-      width: 325px;
+      width: 20.313rem; //325px
       height: 100%;
       border-radius: 25px;
       background-color: #3c415d;
-      padding: 4px;
-      margin-left: 10px;
+      padding: 0.25rem; //4px
+      margin-left: 0.625rem; //10px
 
       .container-btn {
         display: flex;
@@ -137,30 +137,30 @@
           outline: none;
           color: white;
           border: none;
-          font: normal normal 14px "SF-Pro-Rounded-Semibold";
+          font: normal normal 0.875rem /*14px*/"SF-Pro-Rounded-Semibold";
           text-transform: uppercase;
         }
 
         .sent {
-          width: 94px;
+          width: 5.875rem; //94px
           height: 100%;
           border-radius: 21px;
         }
 
         .scheduled {
-          padding: 14px 40px;
+          padding: 0.875rem 2.5rem; //14px 40px
           height: 100%;
         }
 
         .draft {
-          width: 94px;
+          width: 5.875rem; //94px
           height: 100%;
           border-radius: 21px;
         }
 
         .active {
           border-radius: 21px;
-          padding: 14px 0px;
+          padding: 0.875rem 0; //14px 0 
           background: #1279f1 !important;
           background: linear-gradient(
             176deg,
@@ -173,15 +173,15 @@
 
     .compose-message {
       button {
-        font: normal normal 18px "SF-Pro-Rounded-Medium";
+        font: normal normal 1.125rem /*18px*/ "SF-Pro-Rounded-Medium";
         color: #fff;
-        letter-spacing: 0.4px;
+        letter-spacing: 0.025rem; //0.4px
         background-color: #0d77f2;
         border-radius: 50px;
-        padding: 14px 20px 15px;
+        padding: 0.875rem 1.25rem 0.938rem; //14px 20px 15px
         border: 0;
         display: flex;
-        margin-left: 10px;
+        margin-left: 0.625rem; //10px
         align-items: center;
         justify-content: center;
       }
@@ -192,34 +192,34 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 2.5rem; //40px
     .content {
       background-color: rgb(47, 52, 77);
       border-radius: 12px;
-      padding: 30px 46px;
-      margin-bottom: 10px;
+      padding: 1.875rem 2.875rem; //30px 46px 
+      margin-bottom: 0.625rem; //10px
       display: flex;
       justify-content: space-between;
       align-items: center;
       transition: background-color 0.2s ease-in-out;
 
       .d-flex {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem; //10px;
       }
 
       .title {
-        font: normal normal 22px "SF-Pro-Rounded-Semibold";
-        margin-right: 10px;
+        font: normal normal 1.375rem /*22px*/"SF-Pro-Rounded-Semibold";
+        margin-right: 0.625rem; //10px;
         color: white;
       }
 
       .month {
-        font: normal normal 16px "SF-Pro-Rounded-Light";
+        font: normal normal 1rem /*16px*/ "SF-Pro-Rounded-Light";
         color: #797d95;
       }
 
       .description {
-        font: normal normal 16px "SF-Pro-Rounded-Light";
+        font: normal normal 1rem /*16px*/  "SF-Pro-Rounded-Light";
         color: white;
       }
     }
@@ -231,14 +231,14 @@
       .img-block {
         position: relative;
 
-        width: 54px;
-        height: 54px;
+        width: 3.375rem; //54px
+        height: 3.375rem;
         border-radius: 100%;
         border: 5px solid #2f344d;
         transform: scale(1.25);
 
         &:last-child {
-          margin-left: -5px;
+          margin-left: -0.313rem; //5px
         }
 
         img {
@@ -252,8 +252,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 2.5rem 0; //40px
 
     button {
       font: normal normal 18px "SF-Pro-Rounded-Medium";
@@ -268,39 +267,39 @@
 
 @media screen and (max-width: 1600px) {
   .fourth-campaign-message {
-    max-width: 835px;
+    max-width: 52.188rem; //835px
 
     .third-block-progress-bar {
       .progress-bar-block {
         .progress-simple-style {
-          height: 270px;
-          padding: 25px 30px;
+          height: 16.875rem; //270px
+          padding: 1.563rem 1.875rem; //25px 30px 
 
           .rounder-img {
-            width: 45px;
-            height: 45px;
+            width: 2.813rem; //45px
+            height: 2.813rem; //45px
             img {
-              width: 25px;
+              width: 1.563rem; //25px
             }
           }
 
           h1 {
-            font-size: 15px;
-            margin-left: 10px;
+            font-size: 0.938rem; //15px
+            margin-left: 0.625rem; //10px
           }
 
           .position-progress-simple {
-            margin-top: 20px;
+            margin-top: 1.25rem; //20px
 
             .progress {
-              width: 150px;
-              height: 150px;
+              width: 9.375rem; //150px
+              height: 9.375rem;//150px
 
               .progress-value {
                 .text-inside-progress {
-                  font-size: 30px;
+                  font-size: 1.875rem; //30px
                   span {
-                    font-size: 30px;
+                    font-size: 1.875rem; //30px
                   }
                 }
               }
@@ -311,71 +310,71 @@
     }
 
     .fourth-block-messages {
-      margin-top: 65px;
+      margin-top: 4.063rem; //65px
       .title {
         h1 {
-          font-size: 35px;
-          padding-bottom: 10px;
+          font-size: 2.188rem; //35px
+          padding-bottom: 0.625rem;//10px
         }
 
         p {
-          max-width: 400px;
-          font-size: 15px;
-          line-height: 22px;
+          max-width: 25rem; //400px
+          font-size: 0.938rem;  //15px
+          line-height: 1.375rem; // 22px
         }
       }
 
       .btn-block-messages {
-        width: 290px;
+        width: 18.125rem; //290px
         .container-btn {
           .simple-style-btn {
-            font-size: 14px;
+            font-size: 0.875rem; //14px
           }
 
           .scheduled {
-            padding: 10px 25px;
+            padding: 0.625rem 1.563rem; //10px 25px
           }
 
           .active {
-            padding: 10px 0;
+            padding: 0.625rem 0; //10px 0
           }
         }
       }
 
       .compose-message {
         button {
-          font-size: 14px;
+          font-size: 0.875rem; //14px
         }
       }
     }
 
     .fifth-block-info-messages {
-      margin-top: 30px;
+      margin-top: 1.875rem; //30px
 
       .content {
-        padding: 16px 30px 17px;
+        padding: 1rem 1.875rem 1.063rem; //16px 30px 17px
 
         .d-flex {
-          margin-bottom: 5px;
+          margin-bottom: 0.313rem; //5px
         }
 
         .title {
-          font-size: 17px;
+          font-size: 1.063rem; //17px
         }
 
         .month {
-          font-size: 13px;
-        }
+          font-size: 0.813rem; //13px
+        } 
 
         .description {
-          font-size: 15px;
+          font-size: 0.938rem; //15px
         }
       }
 
       .message-contacts {
         .img-block {
-          width: 42px;
-          height: 42px;
+          width: 2.625rem; //42px
+          height: 2.625rem; //42px
         }
       }
     }
@@ -387,28 +386,28 @@
     .third-block-progress-bar {
       .progress-bar-block {
         .progress-simple-style {
-          height: 225px;
-          padding: 20px;
+          height: 14.063rem; //225px
+          padding: 1.25rem; //20px
 
           .rounder-img {
-            width: 40px;
-            height: 40px;
+            width: 2.5rem; //40px
+            height: 2.5rem;
             img {
-              width: 22px;
+              width: 1.375rem; //22px
             }
           }
 
           h1 {
-            font-size: 14px;
-            margin-left: 5px;
+            font-size: 0.875rem; //14px
+            margin-left: 0.313rem; //5px
           }
 
           .position-progress-simple {
-            margin-top: 15px;
+            margin-top: 0.938rem; //15px
 
             .progress {
-              width: 125px;
-              height: 125px;
+              width: 7.813rem; //125px
+              height: 7.813rem; //125px
             }
           }
         }
@@ -416,45 +415,45 @@
     }
 
     .fourth-block-messages {
-      margin-top: 30px;
+      margin-top: 1.875rem; //30px
 
       .btn-block-messages {
         .container-btn {
           .simple-style-btn {
-            font-size: 12px;
+            font-size: 0.75rem; //12px
           }
 
           .scheduled {
-            padding: 10px 25px;
+            padding: 0.625rem 1.563rem; //10px 25px
           }
 
           .active {
-            padding: 10px 0;
+            padding: 0.625rem 0; //10px 0
           }
         }
       }
 
       .compose-message {
         button {
-          width: 110px;
-          padding: 14px 16px 15px;
+          width: 6.875rem; //110px
+          padding: 0.875rem 1rem 0.938rem; //14px 16px 15px
         }
       }
     }
 
     .fifth-block-info-messages {
-      margin-top: 20px;
+      margin-top: 1.25rem; //20px
 
       .content {
-        padding: 20px 30px;
+        padding: 1.25rem 1.875rem; //20px 30px
         border-radius: 6px;
 
         .content-info {
-          margin-right: 5px;
+          margin-right: 0.313rem; //5px
         }
 
         .title {
-          font-size: 18px;
+          font-size: 1.125rem; //18px
         }
       }
     }
@@ -468,26 +467,26 @@
         display: block;
         .progress-simple-style {
             width: 100%;
-            margin: auto auto 15px;
+            margin: auto auto 0.938rem; // auto auto 15px
         }
       }
     }
 
     .fourth-block-messages {
-      margin-top: 15px;
+      margin-top: 0.938rem; //15px
       display: block;
       .title {
         h1 {
-          font-size: 24px;
+          font-size: 1.5rem; //24px
         }
       }
 
       .btn-block-messages {
-        margin: 15px auto auto;
+        margin: 0.938rem auto auto; //15px autp auto
       }
 
       .compose-message {
-        margin-top: 30px;
+        margin-top: 1.875rem; //30px
 
         button{
             width: 100%;

@@ -1196,7 +1196,7 @@ a:hover {
 }
 
 .fourth-campaign-message {
-  max-width: 1170px;
+  max-width: 73.125rem;
   width: 90%;
   margin: auto;
   display: -webkit-box;
@@ -1217,7 +1217,7 @@ a:hover {
 .fourth-campaign-message .third-block-progress-bar {
   width: 100%;
   position: relative;
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block {
@@ -1234,16 +1234,16 @@ a:hover {
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
-  width: 378px;
-  height: 322px;
+  width: 23.625rem;
+  height: 20.125rem;
   background-color: rgba(25, 30, 54, 0.25);
   border-radius: 12px;
-  padding: 30px 34px;
+  padding: 1.875rem 2.125rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
-  width: 54px;
-  height: 54px;
+  width: 3.375rem;
+  height: 3.375rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1269,20 +1269,20 @@ a:hover {
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
-  font: normal normal 18px "SF-Pro-Rounded-Regular";
+  font: normal normal 1.125rem "SF-Pro-Rounded-Regular";
   color: white;
-  letter-spacing: 0.18px;
-  margin-left: 15px;
+  letter-spacing: 0.011rem;
+  margin-left: 0.938rem;
   width: 50%;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
-  margin-top: 42px;
+  margin-top: 2.625rem;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
   background: none;
   position: relative;
 }
@@ -1308,7 +1308,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: normal normal 43px "SF-Pro-Rounded-Medium";
+  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
   color: white;
 }
 
@@ -1316,12 +1316,12 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: normal normal 43px "SF-Pro-Rounded-Light";
+  font: normal normal 2.688rem "SF-Pro-Rounded-Light";
   color: white;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .element-center {
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 
 .fourth-campaign-message .fourth-block-messages {
@@ -1335,27 +1335,27 @@ a:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .title h1 {
-  font: normal normal 50px "SF-Pro-Rounded-Semibold";
+  font: normal normal 3.125rem "SF-Pro-Rounded-Semibold";
   color: white;
-  padding-bottom: 15px;
+  padding-bottom: 0.938rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .title p {
-  font: normal normal 16px "SF-Pro-Rounded-Light";
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
   color: #797d95;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages {
-  width: 325px;
+  width: 20.313rem;
   height: 100%;
   border-radius: 25px;
   background-color: #3c415d;
-  padding: 4px;
-  margin-left: 10px;
+  padding: 0.25rem;
+  margin-left: 0.625rem;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn {
@@ -1373,46 +1373,46 @@ a:hover {
   outline: none;
   color: white;
   border: none;
-  font: normal normal 14px "SF-Pro-Rounded-Semibold";
+  font: normal normal 0.875rem "SF-Pro-Rounded-Semibold";
   text-transform: uppercase;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .sent {
-  width: 94px;
+  width: 5.875rem;
   height: 100%;
   border-radius: 21px;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
-  padding: 14px 40px;
+  padding: 0.875rem 2.5rem;
   height: 100%;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .draft {
-  width: 94px;
+  width: 5.875rem;
   height: 100%;
   border-radius: 21px;
 }
 
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
   border-radius: 21px;
-  padding: 14px 0px;
+  padding: 0.875rem 0;
   background: #1279f1 !important;
   background: linear-gradient(176deg, #1279f1 0%, #0c4ce3 100%) !important;
 }
 
 .fourth-campaign-message .fourth-block-messages .compose-message button {
-  font: normal normal 18px "SF-Pro-Rounded-Medium";
+  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
   color: #fff;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.025rem;
   background-color: #0d77f2;
   border-radius: 50px;
-  padding: 14px 20px 15px;
+  padding: 0.875rem 1.25rem 0.938rem;
   border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1430,14 +1430,14 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content {
   background-color: #2f344d;
   border-radius: 12px;
-  padding: 30px 46px;
-  margin-bottom: 10px;
+  padding: 1.875rem 2.875rem;
+  margin-bottom: 0.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1452,22 +1452,22 @@ a:hover {
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .title {
-  font: normal normal 22px "SF-Pro-Rounded-Semibold";
-  margin-right: 10px;
+  font: normal normal 1.375rem "SF-Pro-Rounded-Semibold";
+  margin-right: 0.625rem;
   color: white;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .month {
-  font: normal normal 16px "SF-Pro-Rounded-Light";
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
   color: #797d95;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .description {
-  font: normal normal 16px "SF-Pro-Rounded-Light";
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
   color: white;
 }
 
@@ -1482,8 +1482,8 @@ a:hover {
 
 .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
   position: relative;
-  width: 54px;
-  height: 54px;
+  width: 3.375rem;
+  height: 3.375rem;
   border-radius: 100%;
   border: 5px solid #2f344d;
   -webkit-transform: scale(1.25);
@@ -1491,7 +1491,7 @@ a:hover {
 }
 
 .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block:last-child {
-  margin-left: -5px;
+  margin-left: -0.313rem;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block img {
@@ -1507,8 +1507,7 @@ a:hover {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 2.5rem 0;
 }
 
 .fourth-campaign-message .btn-load-more-messages button {
@@ -1522,138 +1521,138 @@ a:hover {
 
 @media screen and (max-width: 1600px) {
   .fourth-campaign-message {
-    max-width: 835px;
+    max-width: 52.188rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
-    height: 270px;
-    padding: 25px 30px;
+    height: 16.875rem;
+    padding: 1.563rem 1.875rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
-    width: 45px;
-    height: 45px;
+    width: 2.813rem;
+    height: 2.813rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
-    width: 25px;
+    width: 1.563rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
-    font-size: 15px;
-    margin-left: 10px;
+    font-size: 0.938rem;
+    margin-left: 0.625rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .fourth-campaign-message .fourth-block-messages {
-    margin-top: 65px;
+    margin-top: 4.063rem;
   }
   .fourth-campaign-message .fourth-block-messages .title h1 {
-    font-size: 35px;
-    padding-bottom: 10px;
+    font-size: 2.188rem;
+    padding-bottom: 0.625rem;
   }
   .fourth-campaign-message .fourth-block-messages .title p {
-    max-width: 400px;
-    font-size: 15px;
-    line-height: 22px;
+    max-width: 25rem;
+    font-size: 0.938rem;
+    line-height: 1.375rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages {
-    width: 290px;
+    width: 18.125rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
-    padding: 10px 25px;
+    padding: 0.625rem 1.563rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
   .fourth-campaign-message .fourth-block-messages .compose-message button {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .fourth-campaign-message .fifth-block-info-messages {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content {
-    padding: 16px 30px 17px;
+    padding: 1rem 1.875rem 1.063rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .title {
-    font-size: 17px;
+    font-size: 1.063rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .month {
-    font-size: 13px;
+    font-size: 0.813rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .description {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
-    width: 42px;
-    height: 42px;
+    width: 2.625rem;
+    height: 2.625rem;
   }
 }
 
 @media screen and (max-width: 992px) {
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
-    height: 225px;
-    padding: 20px;
+    height: 14.063rem;
+    padding: 1.25rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
-    width: 22px;
+    width: 1.375rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
-    font-size: 14px;
-    margin-left: 5px;
+    font-size: 0.875rem;
+    margin-left: 0.313rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
-    width: 125px;
-    height: 125px;
+    width: 7.813rem;
+    height: 7.813rem;
   }
   .fourth-campaign-message .fourth-block-messages {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
-    padding: 10px 25px;
+    padding: 0.625rem 1.563rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
   .fourth-campaign-message .fourth-block-messages .compose-message button {
-    width: 110px;
-    padding: 14px 16px 15px;
+    width: 6.875rem;
+    padding: 0.875rem 1rem 0.938rem;
   }
   .fourth-campaign-message .fifth-block-info-messages {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content {
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     border-radius: 6px;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .content-info {
-    margin-right: 5px;
+    margin-right: 0.313rem;
   }
   .fourth-campaign-message .fifth-block-info-messages .content .title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
@@ -1663,20 +1662,20 @@ a:hover {
   }
   .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
     width: 100%;
-    margin: auto auto 15px;
+    margin: auto auto 0.938rem;
   }
   .fourth-campaign-message .fourth-block-messages {
-    margin-top: 15px;
+    margin-top: 0.938rem;
     display: block;
   }
   .fourth-campaign-message .fourth-block-messages .title h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .fourth-campaign-message .fourth-block-messages .btn-block-messages {
-    margin: 15px auto auto;
+    margin: 0.938rem auto auto;
   }
   .fourth-campaign-message .fourth-block-messages .compose-message {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .fourth-campaign-message .fourth-block-messages .compose-message button {
     width: 100%;
