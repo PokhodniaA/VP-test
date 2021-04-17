@@ -29,13 +29,18 @@
           margin-top: 0.25rem; //4px
 
           p {
-            color: #5b6179;
             line-height: 2.938rem; // 47px
-            font: normal normal 0.938rem /*15px*/"SF-Pro-Rounded-Medium";
+            @include loadFont(
+              $font-color: $clr-5b6179,
+              $style: normal,
+              $weight: normal,
+              $size: 0.938rem /*15px*/,
+              $family: "SF-Pro-Rounded-Medium"
+            );
             padding-left: 0.25rem; //4px
 
             a {
-              color: #5b6179;
+              color: $clr-5b6179;
             }
           }
         }

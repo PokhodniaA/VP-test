@@ -15,10 +15,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ***    WIDTH, HEIGHT, BACKGROUND    *** */
 /* ***    CURSOR    *** */
 /* ***    POSITION  ABS-REL  *** */
-.vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li a {
-  position: relative;
-}
-
 /* ***    LEFT, TOP, RIGHT, BOTTOM -0  *** */
 /*  Font-face: Helvetica, ubuntu, SFProText family  */
 @font-face {
@@ -325,11 +321,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-height: 3.688rem;
 }
 
@@ -355,22 +351,23 @@ a:hover {
   font: normal 100 1rem "SF-Pro-Rounded-Regular";
   color: #fff;
   padding: 0.563rem 1.5rem;
+  position: relative;
   z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
@@ -474,7 +471,7 @@ a:hover {
     height: 2.813rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-bell {
-    margin-right: 15px;
+    margin-right: 0.938rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-user-initials span {
     font-size: 1.125rem;
@@ -513,11 +510,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .vp-log {
     max-width: 8.125rem;
@@ -536,11 +533,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-bell {
     width: 1.875rem;
@@ -554,17 +551,16 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-bell img {
     width: 0.938rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-user-initials {
-    overflow: hidden;
     width: 1.875rem;
     height: 1.875rem;
     cursor: pointer;
@@ -580,11 +576,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-user-initials .vp-button span {
     font: normal normal 0.813rem "SF-Pro-Rounded-Semibold";
@@ -738,9 +734,9 @@ a:hover {
 }
 
 .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p {
-  color: #5b6179;
   line-height: 2.938rem;
   font: normal normal 0.938rem "SF-Pro-Rounded-Medium";
+  color: #5b6179;
   padding-left: 0.25rem;
 }
 
@@ -786,14 +782,15 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title h5 {
   font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  color: #fff;
   line-height: 1.063rem;
   letter-spacing: 0.019rem;
-  color: white;
-  margin-bottom: 0.375;
+  margin-bottom: 0.375rem;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input input {
   font: normal normal 3.75rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
   background: none;
   outline: none;
   border: none;
@@ -801,12 +798,10 @@ a:hover {
   max-width: 42.188rem;
   padding: 0 0.125rem;
   line-height: 4.438rem;
-  color: #fff;
   border-bottom: 0.125rem solid rgba(255, 255, 255, 0);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  border-bottom-color: rgba(255, 255, 255, 0);
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input .characters-number-layer {
@@ -837,13 +832,13 @@ a:hover {
 .main-layout-container .campaign-contact-list .campaign-title .block-with-btn button {
   width: 15.625rem;
   height: 3.125rem;
-  background-color: white;
+  background-color: #fff;
   border-radius: 1.563rem;
   outline: none;
   border: none;
   font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
-  line-height: 1.313;
   color: #282d45;
+  line-height: 1.313;
 }
 
 .main-layout-container .campaign-contact-list .campaign-title .block-with-btn button:first-child {
@@ -862,9 +857,9 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .title-btn .simple-text-campaign {
   font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  color: #fff;
   line-height: 1rem;
   letter-spacing: 0.019rem;
-  color: #fff;
   margin-right: 0.375rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -898,14 +893,14 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .title-btn .title-and-img-flex p {
   font: normal normal 1.125rem "SF-Pro-Rounded-Light";
-  line-height: 1.125rem;
   color: #fff;
+  line-height: 1.125rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-layout-container .campaign-contact-list .title-btn .first-title {
@@ -920,20 +915,20 @@ a:hover {
 
 .main-layout-container .campaign-contact-list .title-btn .second-title .simple-paragraph {
   font: normal normal 1.125rem "SF-Pro-Rounded-Light";
-  line-height: 1.125rem;
   color: #fff;
+  line-height: 1.125rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-layout-container .campaign-contact-list .title-btn .second-title .block-month {
   font: normal normal 1rem "SF-Pro-Rounded-Medium";
-  background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 1.563rem;
   margin: 0 20px 0 10px;
   padding: 5px 18px;
@@ -942,11 +937,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   white-space: nowrap;
 }
 
@@ -979,7 +974,7 @@ a:hover {
   width: 1.063rem;
   height: 0.625rem;
   margin-right: 0.313rem;
-  margin-bottom: 0,063rem;
+  margin-bottom: 0.063rem;
 }
 
 .main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex .selected-countries span {
@@ -1005,8 +1000,8 @@ a:hover {
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
   border-radius: 3.125rem;
+  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
   color: #fff;
-  font: normal normal 1.125 "SF-Pro-Rounded-Light";
   line-height: 1.125;
   position: relative;
 }
@@ -1270,7 +1265,7 @@ a:hover {
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
   font: normal normal 1.125rem "SF-Pro-Rounded-Regular";
-  color: white;
+  color: #fff;
   letter-spacing: 0.011rem;
   margin-left: 0.938rem;
   width: 50%;
@@ -1309,15 +1304,15 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
-  color: white;
+  color: #fff;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: normal normal 2.688rem "SF-Pro-Rounded-Light";
-  color: white;
+  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
+  color: #fff;
 }
 
 .fourth-campaign-message .third-block-progress-bar .progress-bar-block .element-center {
@@ -1340,7 +1335,7 @@ a:hover {
 
 .fourth-campaign-message .fourth-block-messages .title h1 {
   font: normal normal 3.125rem "SF-Pro-Rounded-Semibold";
-  color: white;
+  color: #fff;
   padding-bottom: 0.938rem;
 }
 
@@ -1371,9 +1366,9 @@ a:hover {
 .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
   background: none;
   outline: none;
-  color: white;
   border: none;
   font: normal normal 0.875rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -1457,8 +1452,8 @@ a:hover {
 
 .fourth-campaign-message .fifth-block-info-messages .content .title {
   font: normal normal 1.375rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
   margin-right: 0.625rem;
-  color: white;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .content .month {
@@ -1468,7 +1463,7 @@ a:hover {
 
 .fourth-campaign-message .fifth-block-info-messages .content .description {
   font: normal normal 1rem "SF-Pro-Rounded-Light";
-  color: white;
+  color: #fff;
 }
 
 .fourth-campaign-message .fifth-block-info-messages .message-contacts {
