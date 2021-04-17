@@ -15,10 +15,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ***    WIDTH, HEIGHT, BACKGROUND    *** */
 /* ***    CURSOR    *** */
 /* ***    POSITION  ABS-REL  *** */
-.vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li a {
-  position: relative;
-}
-
 /* ***    LEFT, TOP, RIGHT, BOTTOM -0  *** */
 /*  Font-face: Helvetica, ubuntu, SFProText family  */
 @font-face {
@@ -263,7 +259,7 @@ a:hover {
 .vp-header .main-header {
   width: 90%;
   margin: auto;
-  max-width: 1170px;
+  max-width: 73.125rem;
   padding: 0.625rem 0;
   /*10px 0*/
 }
@@ -291,7 +287,7 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 190px;
+  max-width: 11.875rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-log img {
@@ -306,13 +302,13 @@ a:hover {
   background-color: #0d77f2;
   padding: 0.25rem 0.5rem;
   /*4px 8px*/
-  margin-left: 10px;
+  margin-left: 0.625rem;
   /*10px*/
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-menu {
-  max-width: 445px;
+  max-width: 27.813rem;
   width: 100%;
   margin: 0 1.25rem;
   /*0 20px*/
@@ -325,11 +321,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-height: 3.688rem;
 }
 
@@ -339,7 +335,7 @@ a:hover {
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item {
   background: #282d45;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 
 .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item a {
@@ -355,22 +351,23 @@ a:hover {
   font: normal 100 1rem "SF-Pro-Rounded-Regular";
   color: #fff;
   padding: 0.563rem 1.5rem;
+  position: relative;
   z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
@@ -444,23 +441,23 @@ a:hover {
 
 @media (max-width: 1600px) {
   .vp-header .main-header {
-    max-width: 835px;
+    max-width: 52.188rem;
     padding: 0.313rem 0;
   }
   .vp-header .main-header .header-wrapper .vp-log {
-    max-width: 155px;
+    max-width: 9.688rem;
   }
   .vp-header .main-header .header-wrapper .vp-log span {
     font-size: 0.6875rem;
     padding: 0.188rem 0.375rem 0.125rem;
-    margin-left: 7px;
+    margin-left: 0.438rem;
     line-height: 0.813rem;
   }
   .vp-header .main-header .header-wrapper .vp-menu {
-    max-width: 350px;
+    max-width: 21.875rem;
   }
   .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li {
-    width: 120px;
+    width: 7.5rem;
   }
   .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li.current-page-item a {
     font-size: 0.875rem;
@@ -474,7 +471,7 @@ a:hover {
     height: 2.813rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-bell {
-    margin-right: 15px;
+    margin-right: 0.938rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-user-initials span {
     font-size: 1.125rem;
@@ -483,14 +480,14 @@ a:hover {
 
 @media (max-width: 992px) {
   .vp-header .main-header .header-wrapper .vp-menu {
-    max-width: 350px;
+    max-width: 21.875rem;
   }
   .vp-header .main-header .header-wrapper .vp-menu #vp-nav-bar li a svg {
     height: 0.875rem;
     margin-bottom: 0.188rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-bell {
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
   .vp-header .main-header .header-wrapper .vp-controller .vp-bell img {
     width: 1.25rem;
@@ -513,14 +510,14 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .vp-log {
-    max-width: 130px;
+    max-width: 8.125rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -536,11 +533,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-bell {
     width: 1.875rem;
@@ -549,26 +546,25 @@ a:hover {
     position: relative;
     background-color: #282d45;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 0.938rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-bell img {
     width: 0.938rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-user-initials {
-    overflow: hidden;
     width: 1.875rem;
     height: 1.875rem;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 0.938rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-user-initials .vp-button {
     width: 100%;
@@ -580,11 +576,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .vp-user-initials .vp-button span {
     font: normal normal 0.813rem "SF-Pro-Rounded-Semibold";
@@ -603,8 +599,8 @@ a:hover {
   .vp-header .main-header .mobile-header-wrapper .mobile-header-block .mobile-menu-controller .mobile-menu-icon .burger .burger__line {
     display: block;
     width: 100%;
-    height: 3px;
-    border-radius: 6px;
+    height: 0.188rem;
+    border-radius: 0.375rem;
     background-color: #fff;
     position: absolute;
     left: 0;
@@ -634,11 +630,11 @@ a:hover {
     width: 100%;
     top: 0 !important;
     left: 0 !important;
-    padding: 50px 1% 0 0;
+    padding: 3.125rem 1% 0 0;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-menu-wrapper .vp-notify .vp-notify-header {
     width: 90%;
-    margin: 10px auto;
+    margin: 0.625rem auto;
     padding: 0;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-menu-wrapper .vp-notify .vp-notify-header .vp-notification-mark-read {
@@ -665,18 +661,1020 @@ a:hover {
     font-size: 0.75rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-menu-wrapper .vp-notify .vp-notify-scroll .vp-notify-item .card.vp-notify-read {
-    padding: 2px 10px 10px;
+    padding: 0.125rem 0.625rem 0.625rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-menu-wrapper .vp-notify .vp-notify-scroll .vp-notify-item .card.vp-notify-unread {
-    padding: 10px;
+    padding: 0.625rem;
   }
   .vp-header .main-header .mobile-header-wrapper .mobile-menu-wrapper .vp-notify .vp-notify-all {
     font: normal normal 0.75rem "SF-Pro-Rounded-Semibold";
     color: #878faf;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 0;
-    margin: 15px auto auto;
+    padding: 0.625rem 0;
+    margin: 0.938rem auto auto;
+  }
+}
+
+.main-layout-container {
+  height: 100%;
+}
+
+.main-layout-container .campaign-contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.75rem;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn {
+  max-width: 73.125rem;
+  width: 90%;
+  height: 3.938rem;
+  margin: auto;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p {
+  line-height: 2.938rem;
+  font: normal normal 0.938rem "SF-Pro-Rounded-Medium";
+  color: #5b6179;
+  padding-left: 0.25rem;
+}
+
+.main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns p a {
+  color: #5b6179;
+}
+
+@media (max-width: 1600px) {
+  .main-layout-container .campaign-contact-list {
+    margin-top: 4.375rem;
+  }
+  .main-layout-container .campaign-contact-list .first-block-btn {
+    max-width: 52.188rem;
+    height: 3.625rem;
+  }
+  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaigns,
+  .main-layout-container .campaign-contact-list .first-block-btn .btn-back-img #back-to-campaign {
+    margin-top: 0rem;
+  }
+}
+
+.main-layout-container .campaign-contact-list .second-block-campaign {
+  width: 90%;
+  max-width: 73.125rem;
+  border-radius: 0.75rem;
+  padding: 1.875rem 2.5rem;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f6367f), to(#fe7470));
+  background-image: linear-gradient(-90deg, #f6367f, #fe7470);
+}
+
+.main-layout-container .campaign-contact-list .campaign-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title {
+  width: 76%;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title h5 {
+  font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  color: #fff;
+  line-height: 1.063rem;
+  letter-spacing: 0.019rem;
+  margin-bottom: 0.375rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input input {
+  font: normal normal 3.75rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+  min-width: 2.5rem !important;
+  max-width: 42.188rem;
+  padding: 0 0.125rem;
+  line-height: 4.438rem;
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title .content-input .characters-number-layer {
+  height: 1.25rem;
+  margin-top: 0.625rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-title #change-text-in-input {
+  margin-left: 0.938rem;
+  cursor: pointer;
+  width: 5.125rem;
+  margin-bottom: 1.563rem;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-btn button {
+  width: 15.625rem;
+  height: 3.125rem;
+  background-color: #fff;
+  border-radius: 1.563rem;
+  outline: none;
+  border: none;
+  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
+  color: #282d45;
+  line-height: 1.313;
+}
+
+.main-layout-container .campaign-contact-list .campaign-title .block-with-btn button:first-child {
+  margin-bottom: 0.625rem;
+}
+
+.main-layout-container .campaign-contact-list .title-btn {
+  margin-top: 4.375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .simple-text-campaign {
+  font: normal normal 1rem "SF-Pro-Rounded-Bold";
+  color: #fff;
+  line-height: 1rem;
+  letter-spacing: 0.019rem;
+  margin-right: 0.375rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .campaign-settings-button {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url(../../imgs/icon/CampaignEdit-Icon-Small.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.813rem;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex img {
+  margin-right: 0.625rem;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .title-and-img-flex p {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
+  color: #fff;
+  line-height: 1.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .first-title {
+  position: relative;
+  width: 22%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title {
+  position: relative;
+  width: 41%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title .simple-paragraph {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
+  color: #fff;
+  line-height: 1.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .second-title .block-month {
+  font: normal normal 1rem "SF-Pro-Rounded-Medium";
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1.563rem;
+  margin: 0 20px 0 10px;
+  padding: 5px 18px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title {
+  position: relative;
+  width: 25%;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .campaign-location-settings {
+  margin-left: 0.625rem;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex {
+  margin-top: 0.625rem;
+  margin-right: 1.25rem;
+  padding: 0.188rem 0.313rem 0.188rem 0.625rem;
+  border-radius: 1.563rem;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: default;
+  position: relative;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex .selected-countries img {
+  width: 1.063rem;
+  height: 0.625rem;
+  margin-right: 0.313rem;
+  margin-bottom: 0.063rem;
+}
+
+.main-layout-container .campaign-contact-list .title-btn .third-title .title-and-img-flex .selected-countries span {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
+  color: #fff;
+  margin-right: 0.938rem;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .simple-paragraph {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.33);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0.625rem 1.563rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  border-radius: 3.125rem;
+  font: normal normal 1.125rem "SF-Pro-Rounded-Light";
+  color: #fff;
+  line-height: 1.125;
+  position: relative;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .cancel-btn {
+  position: relative;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0;
+  margin-left: 1rem;
+  color: transparent;
+  cursor: pointer;
+}
+
+.main-layout-container .campaign-contact-list .fourth-title .tag-option .cancel-btn::after {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(../../imgs/icon/close_icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+@media (max-width: 1600px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign {
+    max-width: 52.188rem;
+    padding: 1.25rem 1.563rem 0.625rem 1.875rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
+    font-size: 0.813rem;
+    line-height: 0.938rem;
+    margin-bottom: 0.313rem;
+    letter-spacing: 0.016rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    max-width: 35.625rem;
+    font-size: 2.625rem;
+    line-height: 2.813rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title .characters-number-layer {
+    margin-top: 0.313rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input {
+    margin-left: 0;
+    width: 1.938rem;
+    height: 1.938rem;
+    margin-bottom: 1.563rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #change-text-in-input img {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
+    width: 11.063rem;
+    height: 2.5rem;
+    font-size: 0.938rem;
+    line-height: 1.125rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts ::after {
+    margin-bottom: 0.313rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
+    margin-top: 1.25rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .simple-text-campaign {
+    font-size: 0.813rem;
+    line-height: 0.938rem;
+    letter-spacing: 0.016rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .campaign-settings-button {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex img {
+    margin-right: 0.313rem;
+    height: 1.25rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .simple-paragraph {
+    font-size: 0.938rem;
+    line-height: 0.875rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .block-month {
+    font-size: 0.813rem;
+    margin: 0 0.938rem 0 0.313rem;
+    line-height: 1rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex .end {
+    margin-right: 0;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title {
+    width: 45%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title {
+    width: 30%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block {
+    margin-top: 0.938rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .campaign-tags-changed img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign {
+    border-radius: 0.375rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title h5 {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    max-width: 24.375rem;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .simple-text-campaign {
+    font-size: 0.75rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .block-month {
+    font-size: 0.75rem !important;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-tags-block .simple-paragraph {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title {
+    display: block;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-title #campaign-input-select {
+    width: 100% !important;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .campaign-title .block-with-btn #top-campaign-contacts {
+    width: 10.938rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding-top: 0.188rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn {
+    display: block;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .title-and-img-flex {
+    margin-top: 0.313rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .first-title {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .second-title .simple-paragraph {
+    display: none;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title {
+    width: 100%;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title .campaign-location-settings {
+    margin-left: 0;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .third-title .selected-countries span {
+    font-size: 0.875rem;
+    margin-right: 0.625rem;
+  }
+  .main-layout-container .campaign-contact-list .second-block-campaign .title-btn .fourth-title .tags-selected ul {
+    overflow-y: scroll;
+  }
+}
+
+.fourth-campaign-message {
+  max-width: 73.125rem;
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fourth-campaign-message .third-block-progress-bar {
+  width: 100%;
+  position: relative;
+  margin-top: 0.938rem;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
+  width: 23.625rem;
+  height: 20.125rem;
+  background-color: rgba(25, 30, 54, 0.25);
+  border-radius: 0.75rem;
+  padding: 1.875rem 2.125rem;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .message {
+  background-color: rgba(102, 227, 172, 0.5);
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .menu {
+  background-color: rgba(136, 103, 228, 0.5);
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .accuracy {
+  background-color: rgba(36, 190, 251, 0.5);
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Regular";
+  color: #fff;
+  letter-spacing: 0.011rem;
+  margin-left: 0.938rem;
+  width: 50%;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
+  margin-top: 2.625rem;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
+  width: 10rem;
+  height: 10rem;
+  background: none;
+  position: relative;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 10px solid #3c415d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
+  color: #fff;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: normal normal 2.688rem "SF-Pro-Rounded-Medium";
+  color: #fff;
+}
+
+.fourth-campaign-message .third-block-progress-bar .progress-bar-block .element-center {
+  margin: 0 0.625rem;
+}
+
+.fourth-campaign-message .fourth-block-messages {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 3.75rem;
+}
+
+.fourth-campaign-message .fourth-block-messages .title h1 {
+  font: normal normal 3.125rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
+  padding-bottom: 0.938rem;
+}
+
+.fourth-campaign-message .fourth-block-messages .title p {
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  color: #797d95;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages {
+  width: 20.313rem;
+  height: 100%;
+  border-radius: 1.563rem;
+  background-color: #3c415d;
+  padding: 0.25rem;
+  margin-left: 0.625rem;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
+  background: none;
+  outline: none;
+  border: none;
+  font: normal normal 0.875rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .sent {
+  width: 5.875rem;
+  height: 100%;
+  border-radius: 1.313rem;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
+  padding: 0.875rem 2.5rem;
+  height: 100%;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .draft {
+  width: 5.875rem;
+  height: 100%;
+  border-radius: 1.313rem;
+}
+
+.fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
+  border-radius: 1.313rem;
+  padding: 0.875rem 0;
+  background: #1279f1 !important;
+  background: linear-gradient(176deg, #1279f1 0%, #0c4ce3 100%) !important;
+}
+
+.fourth-campaign-message .fourth-block-messages .compose-message button {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
+  color: #fff;
+  letter-spacing: 0.025rem;
+  background-color: #0d77f2;
+  border-radius: 3.125rem;
+  padding: 0.875rem 1.25rem 0.938rem;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.625rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fourth-campaign-message .fifth-block-info-messages {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .content {
+  background-color: #2f344d;
+  border-radius: 0.75rem;
+  padding: 1.875rem 2.875rem;
+  margin-bottom: 0.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .content .d-flex {
+  margin-bottom: 0.625rem;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .content .title {
+  font: normal normal 1.375rem "SF-Pro-Rounded-Semibold";
+  color: #fff;
+  margin-right: 0.625rem;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .content .month {
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  color: #797d95;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .content .description {
+  font: normal normal 1rem "SF-Pro-Rounded-Light";
+  color: #fff;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .message-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
+  position: relative;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 100%;
+  border: 0.313rem solid #2f344d;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block:last-child {
+  margin-left: -0.313rem;
+}
+
+.fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block img {
+  width: 100%;
+}
+
+.fourth-campaign-message .btn-load-more-messages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 2.5rem 0;
+}
+
+.fourth-campaign-message .btn-load-more-messages button {
+  font: normal normal 1.125rem "SF-Pro-Rounded-Medium";
+  line-height: 1.313rem;
+  border: none;
+  outline: none;
+  background: none;
+  color: #a7abc1;
+}
+
+@media screen and (max-width: 1600px) {
+  .fourth-campaign-message {
+    max-width: 52.188rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
+    height: 16.875rem;
+    padding: 1.563rem 1.875rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
+    width: 2.813rem;
+    height: 2.813rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
+    width: 1.563rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
+    font-size: 0.938rem;
+    margin-left: 0.625rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
+    margin-top: 1.25rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
+    width: 9.375rem;
+    height: 9.375rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress {
+    font-size: 1.875rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress .progress-value .text-inside-progress span {
+    font-size: 1.875rem;
+  }
+  .fourth-campaign-message .fourth-block-messages {
+    margin-top: 4.063rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .title h1 {
+    font-size: 2.188rem;
+    padding-bottom: 0.625rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .title p {
+    max-width: 25rem;
+    font-size: 0.938rem;
+    line-height: 1.375rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages {
+    width: 18.125rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
+    font-size: 0.875rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
+    padding: 0.625rem 1.563rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
+    padding: 0.625rem 0;
+  }
+  .fourth-campaign-message .fourth-block-messages .compose-message button {
+    font-size: 0.875rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages {
+    margin-top: 1.875rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content {
+    padding: 1rem 1.875rem 1.063rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .d-flex {
+    margin-bottom: 0.313rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .title {
+    font-size: 1.063rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .month {
+    font-size: 0.813rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .description {
+    font-size: 0.938rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .message-contacts .img-block {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
+    height: 14.063rem;
+    padding: 1.25rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .rounder-img img {
+    width: 1.375rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style h1 {
+    font-size: 0.875rem;
+    margin-left: 0.313rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple {
+    margin-top: 0.938rem;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style .position-progress-simple .progress {
+    width: 7.813rem;
+    height: 7.813rem;
+  }
+  .fourth-campaign-message .fourth-block-messages {
+    margin-top: 1.875rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .simple-style-btn {
+    font-size: 0.75rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .scheduled {
+    padding: 0.625rem 1.563rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages .container-btn .active {
+    padding: 0.625rem 0;
+  }
+  .fourth-campaign-message .fourth-block-messages .compose-message button {
+    width: 6.875rem;
+    padding: 0.875rem 1rem 0.938rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages {
+    margin-top: 1.25rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content {
+    padding: 1.25rem 1.875rem;
+    border-radius: 0.375rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .content-info {
+    margin-right: 0.313rem;
+  }
+  .fourth-campaign-message .fifth-block-info-messages .content .title {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block {
+    display: block;
+  }
+  .fourth-campaign-message .third-block-progress-bar .progress-bar-block .progress-simple-style {
+    width: 100%;
+    margin: auto auto 0.938rem;
+  }
+  .fourth-campaign-message .fourth-block-messages {
+    margin-top: 0.938rem;
+    display: block;
+  }
+  .fourth-campaign-message .fourth-block-messages .title h1 {
+    font-size: 1.5rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .btn-block-messages {
+    margin: 0.938rem auto auto;
+  }
+  .fourth-campaign-message .fourth-block-messages .compose-message {
+    margin-top: 1.875rem;
+  }
+  .fourth-campaign-message .fourth-block-messages .compose-message button {
+    width: 100%;
+    margin: 0;
   }
 }
 
